@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33ABA1B2086CF2600E01D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA1A2086CF2600E01D83 /* AppDelegate.swift */; };
+		C33ABA1D2086CF2600E01D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA1C2086CF2600E01D83 /* ViewController.swift */; };
+		C33ABA202086CF2600E01D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33ABA1E2086CF2600E01D83 /* Main.storyboard */; };
+		C33ABA232086CF2600E01D83 /* IDMoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA212086CF2600E01D83 /* IDMoney.xcdatamodeld */; };
+		C33ABA252086CF2600E01D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33ABA242086CF2600E01D83 /* Assets.xcassets */; };
+		C33ABA282086CF2600E01D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33ABA262086CF2600E01D83 /* LaunchScreen.storyboard */; };
+		C33ABA332086CF2700E01D83 /* IDMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA322086CF2700E01D83 /* IDMoneyTests.swift */; };
+		C33ABA3E2086CF2700E01D83 /* IDMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA3D2086CF2700E01D83 /* IDMoneyUITests.swift */; };
+		C33ABA712086E62000E01D83 /* AgendarDificultadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA4B2086E62000E01D83 /* AgendarDificultadController.swift */; };
+		C33ABA722086E62000E01D83 /* AgendarOrigenDestino.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA4C2086E62000E01D83 /* AgendarOrigenDestino.swift */; };
+		C33ABA732086E62000E01D83 /* AgendarOrigenDestinoCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA4D2086E62000E01D83 /* AgendarOrigenDestinoCotroller.swift */; };
+		C33ABA742086E62000E01D83 /* AgendarSummaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA4E2086E62000E01D83 /* AgendarSummaryController.swift */; };
+		C33ABA752086E62000E01D83 /* AngendarTipoVehiculoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA4F2086E62000E01D83 /* AngendarTipoVehiculoController.swift */; };
+		C33ABA762086E62000E01D83 /* ArrayOfTipoPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA502086E62000E01D83 /* ArrayOfTipoPago.swift */; };
+		C33ABA772086E62000E01D83 /* ArrayOfUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA512086E62000E01D83 /* ArrayOfUsuario.swift */; };
+		C33ABA782086E62000E01D83 /* DropMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA522086E62000E01D83 /* DropMenuButton.swift */; };
+		C33ABA792086E62000E01D83 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA532086E62000E01D83 /* Home.swift */; };
+		C33ABA7A2086E62000E01D83 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA542086E62000E01D83 /* HomeController.swift */; };
+		C33ABA7B2086E62000E01D83 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA552086E62000E01D83 /* Login.swift */; };
+		C33ABA7C2086E62000E01D83 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA562086E62000E01D83 /* Reachability.swift */; };
+		C33ABA7D2086E62000E01D83 /* RegistrarUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA572086E62000E01D83 /* RegistrarUsuarioController.swift */; };
+		C33ABA7E2086E62000E01D83 /* Req_CalcularViaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA582086E62000E01D83 /* Req_CalcularViaje.swift */; };
+		C33ABA7F2086E62000E01D83 /* Req_RegistrarTipoPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA592086E62000E01D83 /* Req_RegistrarTipoPago.swift */; };
+		C33ABA802086E62000E01D83 /* Req_RegistrarUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA5A2086E62000E01D83 /* Req_RegistrarUsuario.swift */; };
+		C33ABA812086E62000E01D83 /* Req_RegistrarUsuario2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA5B2086E62000E01D83 /* Req_RegistrarUsuario2.swift */; };
+		C33ABA822086E62000E01D83 /* Request_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA5C2086E62000E01D83 /* Request_Base.swift */; };
+		C33ABA832086E62000E01D83 /* Res_CalcularViaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA5D2086E62000E01D83 /* Res_CalcularViaje.swift */; };
+		C33ABA842086E62000E01D83 /* Res_RegistrarTipoPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA5E2086E62000E01D83 /* Res_RegistrarTipoPago.swift */; };
+		C33ABA852086E62000E01D83 /* Res_RegistrarUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA5F2086E62000E01D83 /* Res_RegistrarUsuario.swift */; };
+		C33ABA862086E62000E01D83 /* Response_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA602086E62000E01D83 /* Response_Base.swift */; };
+		C33ABA872086E62000E01D83 /* SoapHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA612086E62000E01D83 /* SoapHttpClient.swift */; };
+		C33ABA882086E62000E01D83 /* SoapHttpClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA622086E62000E01D83 /* SoapHttpClientExtension.swift */; };
+		C33ABA892086E62000E01D83 /* StructData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA632086E62000E01D83 /* StructData.swift */; };
+		C33ABA8A2086E62000E01D83 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA652086E62000E01D83 /* SWXMLHash.swift */; };
+		C33ABA8B2086E62000E01D83 /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA662086E62000E01D83 /* SWXMLHash+TypeConversion.swift */; };
+		C33ABA8C2086E62000E01D83 /* TipoPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA672086E62000E01D83 /* TipoPago.swift */; };
+		C33ABA8D2086E62000E01D83 /* TipoPagoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA682086E62000E01D83 /* TipoPagoController.swift */; };
+		C33ABA8E2086E62000E01D83 /* TipoPagoEliminarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA692086E62000E01D83 /* TipoPagoEliminarController.swift */; };
+		C33ABA8F2086E62000E01D83 /* TipoPagoRegistroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA6A2086E62000E01D83 /* TipoPagoRegistroController.swift */; };
+		C33ABA902086E62000E01D83 /* TipoPagoTarjetaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA6B2086E62000E01D83 /* TipoPagoTarjetaController.swift */; };
+		C33ABA912086E62000E01D83 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA6C2086E62000E01D83 /* Usuario.swift */; };
+		C33ABA922086E62000E01D83 /* Usuario2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA6D2086E62000E01D83 /* Usuario2.swift */; };
+		C33ABA932086E62000E01D83 /* viajesRealizadosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA6E2086E62000E01D83 /* viajesRealizadosController.swift */; };
+		C33ABA942086E62000E01D83 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA6F2086E62000E01D83 /* ViewControllerTableViewCell.swift */; };
+		C33ABA952086E62000E01D83 /* WS_Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA702086E62000E01D83 /* WS_Tokens.swift */; };
+		C3DD950A2086FA1300CFF1B5 /* Ayuda.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95022086FA1300CFF1B5 /* Ayuda.png */; };
+		C3DD950B2086FA1300CFF1B5 /* Cerrar Sesión.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95032086FA1300CFF1B5 /* Cerrar Sesión.png */; };
+		C3DD950C2086FA1300CFF1B5 /* configuración.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95042086FA1300CFF1B5 /* configuración.png */; };
+		C3DD950D2086FA1300CFF1B5 /* Direcciones.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95052086FA1300CFF1B5 /* Direcciones.png */; };
+		C3DD950E2086FA1300CFF1B5 /* Exchange button.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95062086FA1300CFF1B5 /* Exchange button.png */; };
+		C3DD950F2086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95072086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif */; };
+		C3DD95102086FA1300CFF1B5 /* Pantalla vision.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95082086FA1300CFF1B5 /* Pantalla vision.png */; };
+		C3DD95112086FA1300CFF1B5 /* Transferencias.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95092086FA1300CFF1B5 /* Transferencias.png */; };
+		C3DD951520871C5A00CFF1B5 /* chart.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD951420871C5A00CFF1B5 /* chart.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33ABA2F2086CF2700E01D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33ABA0F2086CF2600E01D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33ABA162086CF2600E01D83;
+			remoteInfo = IDMoney;
+		};
+		C33ABA3A2086CF2700E01D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33ABA0F2086CF2600E01D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33ABA162086CF2600E01D83;
+			remoteInfo = IDMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C33ABA172086CF2600E01D83 /* IDMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33ABA1A2086CF2600E01D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C33ABA1C2086CF2600E01D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C33ABA1F2086CF2600E01D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C33ABA222086CF2600E01D83 /* IDMoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IDMoney.xcdatamodel; sourceTree = "<group>"; };
+		C33ABA242086CF2600E01D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C33ABA272086CF2600E01D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C33ABA292086CF2600E01D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33ABA2E2086CF2700E01D83 /* IDMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33ABA322086CF2700E01D83 /* IDMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDMoneyTests.swift; sourceTree = "<group>"; };
+		C33ABA342086CF2700E01D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33ABA392086CF2700E01D83 /* IDMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33ABA3D2086CF2700E01D83 /* IDMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDMoneyUITests.swift; sourceTree = "<group>"; };
+		C33ABA3F2086CF2700E01D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33ABA4B2086E62000E01D83 /* AgendarDificultadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendarDificultadController.swift; sourceTree = "<group>"; };
+		C33ABA4C2086E62000E01D83 /* AgendarOrigenDestino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendarOrigenDestino.swift; sourceTree = "<group>"; };
+		C33ABA4D2086E62000E01D83 /* AgendarOrigenDestinoCotroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendarOrigenDestinoCotroller.swift; sourceTree = "<group>"; };
+		C33ABA4E2086E62000E01D83 /* AgendarSummaryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgendarSummaryController.swift; sourceTree = "<group>"; };
+		C33ABA4F2086E62000E01D83 /* AngendarTipoVehiculoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngendarTipoVehiculoController.swift; sourceTree = "<group>"; };
+		C33ABA502086E62000E01D83 /* ArrayOfTipoPago.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayOfTipoPago.swift; sourceTree = "<group>"; };
+		C33ABA512086E62000E01D83 /* ArrayOfUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayOfUsuario.swift; sourceTree = "<group>"; };
+		C33ABA522086E62000E01D83 /* DropMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropMenuButton.swift; sourceTree = "<group>"; };
+		C33ABA532086E62000E01D83 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C33ABA542086E62000E01D83 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		C33ABA552086E62000E01D83 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C33ABA562086E62000E01D83 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		C33ABA572086E62000E01D83 /* RegistrarUsuarioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrarUsuarioController.swift; sourceTree = "<group>"; };
+		C33ABA582086E62000E01D83 /* Req_CalcularViaje.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Req_CalcularViaje.swift; sourceTree = "<group>"; };
+		C33ABA592086E62000E01D83 /* Req_RegistrarTipoPago.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Req_RegistrarTipoPago.swift; sourceTree = "<group>"; };
+		C33ABA5A2086E62000E01D83 /* Req_RegistrarUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Req_RegistrarUsuario.swift; sourceTree = "<group>"; };
+		C33ABA5B2086E62000E01D83 /* Req_RegistrarUsuario2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Req_RegistrarUsuario2.swift; sourceTree = "<group>"; };
+		C33ABA5C2086E62000E01D83 /* Request_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request_Base.swift; sourceTree = "<group>"; };
+		C33ABA5D2086E62000E01D83 /* Res_CalcularViaje.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Res_CalcularViaje.swift; sourceTree = "<group>"; };
+		C33ABA5E2086E62000E01D83 /* Res_RegistrarTipoPago.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Res_RegistrarTipoPago.swift; sourceTree = "<group>"; };
+		C33ABA5F2086E62000E01D83 /* Res_RegistrarUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Res_RegistrarUsuario.swift; sourceTree = "<group>"; };
+		C33ABA602086E62000E01D83 /* Response_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response_Base.swift; sourceTree = "<group>"; };
+		C33ABA612086E62000E01D83 /* SoapHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapHttpClient.swift; sourceTree = "<group>"; };
+		C33ABA622086E62000E01D83 /* SoapHttpClientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapHttpClientExtension.swift; sourceTree = "<group>"; };
+		C33ABA632086E62000E01D83 /* StructData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructData.swift; sourceTree = "<group>"; };
+		C33ABA642086E62000E01D83 /* SWXMLHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWXMLHash.h; sourceTree = "<group>"; };
+		C33ABA652086E62000E01D83 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		C33ABA662086E62000E01D83 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		C33ABA672086E62000E01D83 /* TipoPago.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoPago.swift; sourceTree = "<group>"; };
+		C33ABA682086E62000E01D83 /* TipoPagoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoPagoController.swift; sourceTree = "<group>"; };
+		C33ABA692086E62000E01D83 /* TipoPagoEliminarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoPagoEliminarController.swift; sourceTree = "<group>"; };
+		C33ABA6A2086E62000E01D83 /* TipoPagoRegistroController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoPagoRegistroController.swift; sourceTree = "<group>"; };
+		C33ABA6B2086E62000E01D83 /* TipoPagoTarjetaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoPagoTarjetaController.swift; sourceTree = "<group>"; };
+		C33ABA6C2086E62000E01D83 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		C33ABA6D2086E62000E01D83 /* Usuario2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario2.swift; sourceTree = "<group>"; };
+		C33ABA6E2086E62000E01D83 /* viajesRealizadosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viajesRealizadosController.swift; sourceTree = "<group>"; };
+		C33ABA6F2086E62000E01D83 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		C33ABA702086E62000E01D83 /* WS_Tokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WS_Tokens.swift; sourceTree = "<group>"; };
+		C3DD95022086FA1300CFF1B5 /* Ayuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ayuda.png; path = Image/Ayuda.png; sourceTree = "<group>"; };
+		C3DD95032086FA1300CFF1B5 /* Cerrar Sesión.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cerrar Sesión.png"; path = "Image/Cerrar Sesión.png"; sourceTree = "<group>"; };
+		C3DD95042086FA1300CFF1B5 /* configuración.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "configuración.png"; path = "Image/configuración.png"; sourceTree = "<group>"; };
+		C3DD95052086FA1300CFF1B5 /* Direcciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Direcciones.png; path = Image/Direcciones.png; sourceTree = "<group>"; };
+		C3DD95062086FA1300CFF1B5 /* Exchange button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Exchange button.png"; path = "Image/Exchange button.png"; sourceTree = "<group>"; };
+		C3DD95072086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "IDMoney_Videos-LoadingLogo.gif"; path = "Image/IDMoney_Videos-LoadingLogo.gif"; sourceTree = "<group>"; };
+		C3DD95082086FA1300CFF1B5 /* Pantalla vision.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pantalla vision.png"; path = "Image/Pantalla vision.png"; sourceTree = "<group>"; };
+		C3DD95092086FA1300CFF1B5 /* Transferencias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Transferencias.png; path = Image/Transferencias.png; sourceTree = "<group>"; };
+		C3DD951420871C5A00CFF1B5 /* chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chart.png; path = Image/chart.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33ABA142086CF2600E01D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33ABA2B2086CF2700E01D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33ABA362086CF2700E01D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33ABA0E2086CF2600E01D83 = {
+			isa = PBXGroup;
+			children = (
+				C33ABA192086CF2600E01D83 /* IDMoney */,
+				C33ABA312086CF2700E01D83 /* IDMoneyTests */,
+				C33ABA3C2086CF2700E01D83 /* IDMoneyUITests */,
+				C33ABA182086CF2600E01D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33ABA182086CF2600E01D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33ABA172086CF2600E01D83 /* IDMoney.app */,
+				C33ABA2E2086CF2700E01D83 /* IDMoneyTests.xctest */,
+				C33ABA392086CF2700E01D83 /* IDMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33ABA192086CF2600E01D83 /* IDMoney */ = {
+			isa = PBXGroup;
+			children = (
+				C3DD95012086F9C000CFF1B5 /* Image */,
+				C33ABA4B2086E62000E01D83 /* AgendarDificultadController.swift */,
+				C33ABA4C2086E62000E01D83 /* AgendarOrigenDestino.swift */,
+				C33ABA4D2086E62000E01D83 /* AgendarOrigenDestinoCotroller.swift */,
+				C33ABA4E2086E62000E01D83 /* AgendarSummaryController.swift */,
+				C33ABA4F2086E62000E01D83 /* AngendarTipoVehiculoController.swift */,
+				C33ABA502086E62000E01D83 /* ArrayOfTipoPago.swift */,
+				C33ABA512086E62000E01D83 /* ArrayOfUsuario.swift */,
+				C33ABA522086E62000E01D83 /* DropMenuButton.swift */,
+				C33ABA532086E62000E01D83 /* Home.swift */,
+				C33ABA542086E62000E01D83 /* HomeController.swift */,
+				C33ABA552086E62000E01D83 /* Login.swift */,
+				C33ABA562086E62000E01D83 /* Reachability.swift */,
+				C33ABA572086E62000E01D83 /* RegistrarUsuarioController.swift */,
+				C33ABA582086E62000E01D83 /* Req_CalcularViaje.swift */,
+				C33ABA592086E62000E01D83 /* Req_RegistrarTipoPago.swift */,
+				C33ABA5A2086E62000E01D83 /* Req_RegistrarUsuario.swift */,
+				C33ABA5B2086E62000E01D83 /* Req_RegistrarUsuario2.swift */,
+				C33ABA5C2086E62000E01D83 /* Request_Base.swift */,
+				C33ABA5D2086E62000E01D83 /* Res_CalcularViaje.swift */,
+				C33ABA5E2086E62000E01D83 /* Res_RegistrarTipoPago.swift */,
+				C33ABA5F2086E62000E01D83 /* Res_RegistrarUsuario.swift */,
+				C33ABA602086E62000E01D83 /* Response_Base.swift */,
+				C33ABA612086E62000E01D83 /* SoapHttpClient.swift */,
+				C33ABA622086E62000E01D83 /* SoapHttpClientExtension.swift */,
+				C33ABA632086E62000E01D83 /* StructData.swift */,
+				C33ABA642086E62000E01D83 /* SWXMLHash.h */,
+				C33ABA652086E62000E01D83 /* SWXMLHash.swift */,
+				C33ABA662086E62000E01D83 /* SWXMLHash+TypeConversion.swift */,
+				C33ABA672086E62000E01D83 /* TipoPago.swift */,
+				C33ABA682086E62000E01D83 /* TipoPagoController.swift */,
+				C33ABA692086E62000E01D83 /* TipoPagoEliminarController.swift */,
+				C33ABA6A2086E62000E01D83 /* TipoPagoRegistroController.swift */,
+				C33ABA6B2086E62000E01D83 /* TipoPagoTarjetaController.swift */,
+				C33ABA6C2086E62000E01D83 /* Usuario.swift */,
+				C33ABA6D2086E62000E01D83 /* Usuario2.swift */,
+				C33ABA6E2086E62000E01D83 /* viajesRealizadosController.swift */,
+				C33ABA6F2086E62000E01D83 /* ViewControllerTableViewCell.swift */,
+				C33ABA702086E62000E01D83 /* WS_Tokens.swift */,
+				C33ABA1A2086CF2600E01D83 /* AppDelegate.swift */,
+				C33ABA1C2086CF2600E01D83 /* ViewController.swift */,
+				C33ABA1E2086CF2600E01D83 /* Main.storyboard */,
+				C33ABA242086CF2600E01D83 /* Assets.xcassets */,
+				C33ABA262086CF2600E01D83 /* LaunchScreen.storyboard */,
+				C33ABA292086CF2600E01D83 /* Info.plist */,
+				C33ABA212086CF2600E01D83 /* IDMoney.xcdatamodeld */,
+			);
+			path = IDMoney;
+			sourceTree = "<group>";
+		};
+		C33ABA312086CF2700E01D83 /* IDMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C33ABA322086CF2700E01D83 /* IDMoneyTests.swift */,
+				C33ABA342086CF2700E01D83 /* Info.plist */,
+			);
+			path = IDMoneyTests;
+			sourceTree = "<group>";
+		};
+		C33ABA3C2086CF2700E01D83 /* IDMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C33ABA3D2086CF2700E01D83 /* IDMoneyUITests.swift */,
+				C33ABA3F2086CF2700E01D83 /* Info.plist */,
+			);
+			path = IDMoneyUITests;
+			sourceTree = "<group>";
+		};
+		C3DD95012086F9C000CFF1B5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C3DD951420871C5A00CFF1B5 /* chart.png */,
+				C3DD95022086FA1300CFF1B5 /* Ayuda.png */,
+				C3DD95032086FA1300CFF1B5 /* Cerrar Sesión.png */,
+				C3DD95042086FA1300CFF1B5 /* configuración.png */,
+				C3DD95052086FA1300CFF1B5 /* Direcciones.png */,
+				C3DD95062086FA1300CFF1B5 /* Exchange button.png */,
+				C3DD95072086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif */,
+				C3DD95082086FA1300CFF1B5 /* Pantalla vision.png */,
+				C3DD95092086FA1300CFF1B5 /* Transferencias.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33ABA162086CF2600E01D83 /* IDMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33ABA422086CF2700E01D83 /* Build configuration list for PBXNativeTarget "IDMoney" */;
+			buildPhases = (
+				C33ABA132086CF2600E01D83 /* Sources */,
+				C33ABA142086CF2600E01D83 /* Frameworks */,
+				C33ABA152086CF2600E01D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDMoney;
+			productName = IDMoney;
+			productReference = C33ABA172086CF2600E01D83 /* IDMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C33ABA2D2086CF2700E01D83 /* IDMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33ABA452086CF2700E01D83 /* Build configuration list for PBXNativeTarget "IDMoneyTests" */;
+			buildPhases = (
+				C33ABA2A2086CF2700E01D83 /* Sources */,
+				C33ABA2B2086CF2700E01D83 /* Frameworks */,
+				C33ABA2C2086CF2700E01D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33ABA302086CF2700E01D83 /* PBXTargetDependency */,
+			);
+			name = IDMoneyTests;
+			productName = IDMoneyTests;
+			productReference = C33ABA2E2086CF2700E01D83 /* IDMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C33ABA382086CF2700E01D83 /* IDMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33ABA482086CF2700E01D83 /* Build configuration list for PBXNativeTarget "IDMoneyUITests" */;
+			buildPhases = (
+				C33ABA352086CF2700E01D83 /* Sources */,
+				C33ABA362086CF2700E01D83 /* Frameworks */,
+				C33ABA372086CF2700E01D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33ABA3B2086CF2700E01D83 /* PBXTargetDependency */,
+			);
+			name = IDMoneyUITests;
+			productName = IDMoneyUITests;
+			productReference = C33ABA392086CF2700E01D83 /* IDMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33ABA0F2086CF2600E01D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Administrator;
+				TargetAttributes = {
+					C33ABA162086CF2600E01D83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S3Q5ZJ6EXP;
+						ProvisioningStyle = Automatic;
+					};
+					C33ABA2D2086CF2700E01D83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S3Q5ZJ6EXP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C33ABA162086CF2600E01D83;
+					};
+					C33ABA382086CF2700E01D83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S3Q5ZJ6EXP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C33ABA162086CF2600E01D83;
+					};
+				};
+			};
+			buildConfigurationList = C33ABA122086CF2600E01D83 /* Build configuration list for PBXProject "IDMoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C33ABA0E2086CF2600E01D83;
+			productRefGroup = C33ABA182086CF2600E01D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33ABA162086CF2600E01D83 /* IDMoney */,
+				C33ABA2D2086CF2700E01D83 /* IDMoneyTests */,
+				C33ABA382086CF2700E01D83 /* IDMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33ABA152086CF2600E01D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DD950A2086FA1300CFF1B5 /* Ayuda.png in Resources */,
+				C3DD950C2086FA1300CFF1B5 /* configuración.png in Resources */,
+				C3DD95112086FA1300CFF1B5 /* Transferencias.png in Resources */,
+				C3DD950B2086FA1300CFF1B5 /* Cerrar Sesión.png in Resources */,
+				C33ABA282086CF2600E01D83 /* LaunchScreen.storyboard in Resources */,
+				C33ABA252086CF2600E01D83 /* Assets.xcassets in Resources */,
+				C3DD951520871C5A00CFF1B5 /* chart.png in Resources */,
+				C3DD950E2086FA1300CFF1B5 /* Exchange button.png in Resources */,
+				C3DD950D2086FA1300CFF1B5 /* Direcciones.png in Resources */,
+				C3DD950F2086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif in Resources */,
+				C33ABA202086CF2600E01D83 /* Main.storyboard in Resources */,
+				C3DD95102086FA1300CFF1B5 /* Pantalla vision.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33ABA2C2086CF2700E01D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33ABA372086CF2700E01D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33ABA132086CF2600E01D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33ABA732086E62000E01D83 /* AgendarOrigenDestinoCotroller.swift in Sources */,
+				C33ABA922086E62000E01D83 /* Usuario2.swift in Sources */,
+				C33ABA852086E62000E01D83 /* Res_RegistrarUsuario.swift in Sources */,
+				C33ABA832086E62000E01D83 /* Res_CalcularViaje.swift in Sources */,
+				C33ABA862086E62000E01D83 /* Response_Base.swift in Sources */,
+				C33ABA822086E62000E01D83 /* Request_Base.swift in Sources */,
+				C33ABA872086E62000E01D83 /* SoapHttpClient.swift in Sources */,
+				C33ABA7F2086E62000E01D83 /* Req_RegistrarTipoPago.swift in Sources */,
+				C33ABA8C2086E62000E01D83 /* TipoPago.swift in Sources */,
+				C33ABA842086E62000E01D83 /* Res_RegistrarTipoPago.swift in Sources */,
+				C33ABA1D2086CF2600E01D83 /* ViewController.swift in Sources */,
+				C33ABA712086E62000E01D83 /* AgendarDificultadController.swift in Sources */,
+				C33ABA1B2086CF2600E01D83 /* AppDelegate.swift in Sources */,
+				C33ABA7D2086E62000E01D83 /* RegistrarUsuarioController.swift in Sources */,
+				C33ABA762086E62000E01D83 /* ArrayOfTipoPago.swift in Sources */,
+				C33ABA902086E62000E01D83 /* TipoPagoTarjetaController.swift in Sources */,
+				C33ABA802086E62000E01D83 /* Req_RegistrarUsuario.swift in Sources */,
+				C33ABA772086E62000E01D83 /* ArrayOfUsuario.swift in Sources */,
+				C33ABA7A2086E62000E01D83 /* HomeController.swift in Sources */,
+				C33ABA7B2086E62000E01D83 /* Login.swift in Sources */,
+				C33ABA7C2086E62000E01D83 /* Reachability.swift in Sources */,
+				C33ABA8E2086E62000E01D83 /* TipoPagoEliminarController.swift in Sources */,
+				C33ABA7E2086E62000E01D83 /* Req_CalcularViaje.swift in Sources */,
+				C33ABA8B2086E62000E01D83 /* SWXMLHash+TypeConversion.swift in Sources */,
+				C33ABA742086E62000E01D83 /* AgendarSummaryController.swift in Sources */,
+				C33ABA232086CF2600E01D83 /* IDMoney.xcdatamodeld in Sources */,
+				C33ABA782086E62000E01D83 /* DropMenuButton.swift in Sources */,
+				C33ABA892086E62000E01D83 /* StructData.swift in Sources */,
+				C33ABA932086E62000E01D83 /* viajesRealizadosController.swift in Sources */,
+				C33ABA8A2086E62000E01D83 /* SWXMLHash.swift in Sources */,
+				C33ABA8D2086E62000E01D83 /* TipoPagoController.swift in Sources */,
+				C33ABA752086E62000E01D83 /* AngendarTipoVehiculoController.swift in Sources */,
+				C33ABA792086E62000E01D83 /* Home.swift in Sources */,
+				C33ABA8F2086E62000E01D83 /* TipoPagoRegistroController.swift in Sources */,
+				C33ABA912086E62000E01D83 /* Usuario.swift in Sources */,
+				C33ABA942086E62000E01D83 /* ViewControllerTableViewCell.swift in Sources */,
+				C33ABA812086E62000E01D83 /* Req_RegistrarUsuario2.swift in Sources */,
+				C33ABA882086E62000E01D83 /* SoapHttpClientExtension.swift in Sources */,
+				C33ABA722086E62000E01D83 /* AgendarOrigenDestino.swift in Sources */,
+				C33ABA952086E62000E01D83 /* WS_Tokens.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33ABA2A2086CF2700E01D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33ABA332086CF2700E01D83 /* IDMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33ABA352086CF2700E01D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33ABA3E2086CF2700E01D83 /* IDMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33ABA302086CF2700E01D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33ABA162086CF2600E01D83 /* IDMoney */;
+			targetProxy = C33ABA2F2086CF2700E01D83 /* PBXContainerItemProxy */;
+		};
+		C33ABA3B2086CF2700E01D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33ABA162086CF2600E01D83 /* IDMoney */;
+			targetProxy = C33ABA3A2086CF2700E01D83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C33ABA1E2086CF2600E01D83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33ABA1F2086CF2600E01D83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C33ABA262086CF2600E01D83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33ABA272086CF2600E01D83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C33ABA402086CF2700E01D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C33ABA412086CF2700E01D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33ABA432086CF2700E01D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S3Q5ZJ6EXP;
+				INFOPLIST_FILE = IDMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idmoney.IDMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C33ABA442086CF2700E01D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S3Q5ZJ6EXP;
+				INFOPLIST_FILE = IDMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idmoney.IDMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C33ABA462086CF2700E01D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S3Q5ZJ6EXP;
+				INFOPLIST_FILE = IDMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idmoney.IDMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDMoney.app/IDMoney";
+			};
+			name = Debug;
+		};
+		C33ABA472086CF2700E01D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S3Q5ZJ6EXP;
+				INFOPLIST_FILE = IDMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idmoney.IDMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDMoney.app/IDMoney";
+			};
+			name = Release;
+		};
+		C33ABA492086CF2700E01D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S3Q5ZJ6EXP;
+				INFOPLIST_FILE = IDMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idmoney.IDMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IDMoney;
+			};
+			name = Debug;
+		};
+		C33ABA4A2086CF2700E01D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S3Q5ZJ6EXP;
+				INFOPLIST_FILE = IDMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idmoney.IDMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IDMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33ABA122086CF2600E01D83 /* Build configuration list for PBXProject "IDMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33ABA402086CF2700E01D83 /* Debug */,
+				C33ABA412086CF2700E01D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33ABA422086CF2700E01D83 /* Build configuration list for PBXNativeTarget "IDMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33ABA432086CF2700E01D83 /* Debug */,
+				C33ABA442086CF2700E01D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33ABA452086CF2700E01D83 /* Build configuration list for PBXNativeTarget "IDMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33ABA462086CF2700E01D83 /* Debug */,
+				C33ABA472086CF2700E01D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33ABA482086CF2700E01D83 /* Build configuration list for PBXNativeTarget "IDMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33ABA492086CF2700E01D83 /* Debug */,
+				C33ABA4A2086CF2700E01D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C33ABA212086CF2600E01D83 /* IDMoney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C33ABA222086CF2600E01D83 /* IDMoney.xcdatamodel */,
+			);
+			currentVersion = C33ABA222086CF2600E01D83 /* IDMoney.xcdatamodel */;
+			path = IDMoney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C33ABA0F2086CF2600E01D83 /* Project object */;
+}

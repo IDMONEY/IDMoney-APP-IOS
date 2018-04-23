@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842A7012208D933500AA774D /* NerdAcademy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A7011208D933400AA774D /* NerdAcademy.storyboard */; };
+		842A7014208D935700AA774D /* NerdAcademyQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A7013208D935700AA774D /* NerdAcademyQuizViewController.swift */; };
 		C33ABA1B2086CF2600E01D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA1A2086CF2600E01D83 /* AppDelegate.swift */; };
 		C33ABA1D2086CF2600E01D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33ABA1C2086CF2600E01D83 /* ViewController.swift */; };
 		C33ABA202086CF2600E01D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33ABA1E2086CF2600E01D83 /* Main.storyboard */; };
@@ -81,6 +83,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842A7011208D933400AA774D /* NerdAcademy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NerdAcademy.storyboard; sourceTree = "<group>"; };
+		842A7013208D935700AA774D /* NerdAcademyQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NerdAcademyQuizViewController.swift; sourceTree = "<group>"; };
 		C33ABA172086CF2600E01D83 /* IDMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33ABA1A2086CF2600E01D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C33ABA1C2086CF2600E01D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +173,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842A700D208D92D500AA774D /* NerdAcademy */ = {
+			isa = PBXGroup;
+			children = (
+				842A7013208D935700AA774D /* NerdAcademyQuizViewController.swift */,
+			);
+			name = NerdAcademy;
+			sourceTree = "<group>";
+		};
+		842A700E208D92E500AA774D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				842A7011208D933400AA774D /* NerdAcademy.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 		C33ABA0E2086CF2600E01D83 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +212,8 @@
 		C33ABA192086CF2600E01D83 /* IDMoney */ = {
 			isa = PBXGroup;
 			children = (
+				842A700E208D92E500AA774D /* Storyboards */,
+				842A700D208D92D500AA774D /* NerdAcademy */,
 				C3DD95012086F9C000CFF1B5 /* Image */,
 				C33ABA4B2086E62000E01D83 /* AgendarDificultadController.swift */,
 				C33ABA4C2086E62000E01D83 /* AgendarOrigenDestino.swift */,
@@ -388,6 +410,7 @@
 			files = (
 				C3DD950A2086FA1300CFF1B5 /* Ayuda.png in Resources */,
 				C3DD950C2086FA1300CFF1B5 /* configuración.png in Resources */,
+				842A7012208D933500AA774D /* NerdAcademy.storyboard in Resources */,
 				C3DD95112086FA1300CFF1B5 /* Transferencias.png in Resources */,
 				C3DD950B2086FA1300CFF1B5 /* Cerrar Sesión.png in Resources */,
 				C33ABA282086CF2600E01D83 /* LaunchScreen.storyboard in Resources */,
@@ -429,6 +452,7 @@
 				C33ABA862086E62000E01D83 /* Response_Base.swift in Sources */,
 				C33ABA822086E62000E01D83 /* Request_Base.swift in Sources */,
 				C33ABA872086E62000E01D83 /* SoapHttpClient.swift in Sources */,
+				842A7014208D935700AA774D /* NerdAcademyQuizViewController.swift in Sources */,
 				C33ABA7F2086E62000E01D83 /* Req_RegistrarTipoPago.swift in Sources */,
 				C33ABA8C2086E62000E01D83 /* TipoPago.swift in Sources */,
 				C33ABA842086E62000E01D83 /* Res_RegistrarTipoPago.swift in Sources */,

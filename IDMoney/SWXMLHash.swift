@@ -1,4 +1,4 @@
-﻿//
+//
 //  SWXMLHash.swift
 //
 //  Copyright (c) 2014 David Mohundro
@@ -454,7 +454,7 @@ public enum IndexingError: Error {
 
 /// Returned from SWXMLHash, allows easy element lookup into XML data.
 public enum XMLIndexer: Sequence {
-    case Element(XMLElement)
+    case element(XMLElement)
     case List([XMLElement])
     case Stream(IndexOps)
     case XMLError(IndexingError)
@@ -462,7 +462,7 @@ public enum XMLIndexer: Sequence {
     /// The underlying XMLElement at the currently indexed level of XML.
     public var element: XMLElement? {
         switch self {
-        case .Element(let elem):
+        case .element(let elem):
             return elem
         case .Stream(let ops):
             let list = ops.findElements()
@@ -481,7 +481,7 @@ public enum XMLIndexer: Sequence {
                 xmlList.append(XMLIndexer(elem))
             }
             return xmlList
-        case .Element(let elem):
+        case .element(let elem):
             return [XMLIndexer(elem)]
         case .Stream(let ops):
             let list = ops.findElements()
@@ -521,7 +521,7 @@ public enum XMLIndexer: Sequence {
                 return .Element(elem)
             }
             throw IndexingError.AttributeValue(attr: attr, value: value)
-        case .Element(let elem):
+        case .element(let elem):
             if elem.attribute(by: attr)?.text == value {
                 return .Element(elem)
             }
@@ -574,7 +574,7 @@ public enum XMLIndexer: Sequence {
             let op = IndexOp(key)
             opStream.ops.append(op)
             return .Stream(opStream)
-        case .Element(let elem):
+        case .element(let elem):
             let match = elem.xmlChildren.filter({ $0.name == key })
             if !match.isEmpty {
                 if match.count == 1 {
@@ -622,7 +622,7 @@ public enum XMLIndexer: Sequence {
                 return .Element(list[index])
             }
             return .XMLError(IndexingError.Index(idx: index))
-        case .Element(let elem):
+        case .element(let elem):
             if index == 0 {
                 return .Element(elem)
             }
@@ -681,7 +681,7 @@ extension XMLIndexer: CustomStringConvertible {
         switch self {
         case .List(let list):
             return list.map { $0.description }.joined(separator: "")
-        case .Element(let elem):
+        case .element(let elem):
             if elem.name == rootElementName {
                 return elem.children.map { $0.description }.joined(separator: "")
             }

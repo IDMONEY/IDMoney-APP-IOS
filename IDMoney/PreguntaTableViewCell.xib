@@ -49,7 +49,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <state key="normal" title="Melbourne">
                             <color key="titleColor" red="0.52549019610000003" green="0.50980392159999999" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                            <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" red="0.35294117650000001" green="0.3921568627" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </state>
                         <connections>
                             <action selector="btnRespuesta1:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="dP6-U8-Wqf"/>

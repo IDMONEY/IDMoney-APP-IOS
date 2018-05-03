@@ -1,11 +1,3 @@
-//
-//  customEstilo1UIButton.m
-//  BNCR_App
-//
-//  Created by Jose Carrillo on 12/29/16.
-//  Copyright © 2016 Arc1Lab. All rights reserved.
-//
-
 #import "customEstilo1UIButton.h"
 
 @interface customEstilo1UIButton()

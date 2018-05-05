@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		78D8782635DBE58D9AB21009 /* Pods_IDMoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE3F03214DAD3D4E7ACE3EF /* Pods_IDMoneyTests.framework */; };
+		842022E0209C165800B694E5 /* NerdAcademyResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842022DF209C165800B694E5 /* NerdAcademyResultadoViewController.swift */; };
 		842A7012208D933500AA774D /* NerdAcademy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A7011208D933400AA774D /* NerdAcademy.storyboard */; };
 		842A7014208D935700AA774D /* NerdAcademyQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A7013208D935700AA774D /* NerdAcademyQuizViewController.swift */; };
 		842A7018208D94E500AA774D /* customEstilo1UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A7017208D94E500AA774D /* customEstilo1UIButton.m */; };
@@ -92,6 +93,7 @@
 		04384C2D9BD98B76B240D909 /* Pods-IDMoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDMoneyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDMoneyUITests/Pods-IDMoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E30A8F7A4B650628F67207A /* Pods-IDMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDMoney/Pods-IDMoney.release.xcconfig"; sourceTree = "<group>"; };
 		7EFCC5346427325A036676AF /* Pods-IDMoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDMoneyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDMoneyTests/Pods-IDMoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		842022DF209C165800B694E5 /* NerdAcademyResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerdAcademyResultadoViewController.swift; sourceTree = "<group>"; };
 		842A7011208D933400AA774D /* NerdAcademy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NerdAcademy.storyboard; sourceTree = "<group>"; };
 		842A7013208D935700AA774D /* NerdAcademyQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NerdAcademyQuizViewController.swift; sourceTree = "<group>"; };
 		842A7015208D94E400AA774D /* IDMoney-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDMoney-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 				842A7015208D94E400AA774D /* IDMoney-Bridging-Header.h */,
 				842A7019208D965700AA774D /* PreguntaTableViewCell.swift */,
 				842A701A208D965700AA774D /* PreguntaTableViewCell.xib */,
+				842022DF209C165800B694E5 /* NerdAcademyResultadoViewController.swift */,
 			);
 			name = NerdAcademy;
 			sourceTree = "<group>";
@@ -619,6 +622,7 @@
 				C33ABA8F2086E62000E01D83 /* TipoPagoRegistroController.swift in Sources */,
 				C33ABA912086E62000E01D83 /* Usuario.swift in Sources */,
 				842A7018208D94E500AA774D /* customEstilo1UIButton.m in Sources */,
+				842022E0209C165800B694E5 /* NerdAcademyResultadoViewController.swift in Sources */,
 				C33ABA942086E62000E01D83 /* ViewControllerTableViewCell.swift in Sources */,
 				C33ABA812086E62000E01D83 /* Req_RegistrarUsuario2.swift in Sources */,
 				C33ABA882086E62000E01D83 /* SoapHttpClientExtension.swift in Sources */,

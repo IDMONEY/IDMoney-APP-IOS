@@ -125,15 +125,22 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
                         CargarPreguntas(itemPregunta)
                     }
                 }else{
+                    let lstAgregar = List<Pregunta>()
                     for itemPregunta in lstPreguntas{
                         for select in preguntasContestada{
                             if itemPregunta.IDRespuesta != select.preguntaContestadaID{
-                                CargarPreguntas(itemPregunta)
+                                let objectsToDelete = preguntasContestada.filter("preguntaContestadaID = %@", itemPregunta.IDRespuesta)
+                                if !objectsToDelete.isEmpty{
+                                    lstAgregar.append(itemPregunta)
+                                }                                
                             }else{
                                 let objectsToDelete = realm.objects(Pregunta.self).filter("IDRespuesta = %@", itemPregunta.IDRespuesta)
                                 realm.delete(objectsToDelete)
                             }
                         }
+                    }
+                    for pregunta in lstAgregar{
+                        CargarPreguntas(pregunta)
                     }
                 }
             }
@@ -145,6 +152,10 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
     
     override func viewDidAppear(_ animated: Bool) {
         tableViewPreguntas.reloadData()
+        
+        if preguntas.count <= 0 {
+            performSegue(withIdentifier: "segueComprobar", sender: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -166,7 +177,7 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:PreguntaTableViewCell = tableViewPreguntas.dequeueReusableCell(withIdentifier: "cellPreguntas", for: indexPath) as! PreguntaTableViewCell
         cell.cargarPregunta(pregunta: preguntas[indexPath.row])
-        
+        cell.backgroundColor = UIColor.clear
         cell.delegate = self
         cell.shouldSelectRow = indexPath
         return cell
@@ -176,8 +187,15 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
         return 1
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    }
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let selectedCell:UITableViewCell = tableViewPreguntas.cellForRow(at: indexPath)!
+//        selectedCell.contentView.backgroundColor = UIColor.clear
+//    }
+//    
+//    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+//        let selectedCell:UITableViewCell = tableViewPreguntas.cellForRow(at: indexPath)!
+//        selectedCell.contentView.backgroundColor = UIColor.clear
+//    }
     
     //    MARK: - Metodos
     fileprivate func CargarPreguntas(_ itemPregunta: Pregunta) {
@@ -185,7 +203,10 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
         if item.isEmpty
         {
             if !itemPregunta.IDRespuesta.isEmpty{
-                realm.add(itemPregunta)
+                let objectsNotAdd = preguntasContestada.filter("preguntaContestadaID = %@", itemPregunta.IDRespuesta)
+                if objectsNotAdd.isEmpty{
+                    realm.add(itemPregunta)
+                }
             }
             
         }
@@ -200,6 +221,9 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
                 tableViewPreguntas.reloadData()
             }
         }catch {
+        }
+        if preguntas.count <= 0 {
+            performSegue(withIdentifier: "segueComprobar", sender: nil)
         }
     }
 
@@ -217,13 +241,13 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
         var respContestada: String = ""
         switch identBoton {
         case "1":
-             respContestada = preguntaContestada.Respuesta1
+             respContestada = "1"
         case "2":
-             respContestada = preguntaContestada.Respuesta2
+             respContestada = "2"
         case "3":
-             respContestada = preguntaContestada.Respuesta3
+             respContestada = "3"
         case "4":
-             respContestada = preguntaContestada.Respuesta4
+             respContestada = "4"
         default:
             respContestada = ""
         }
@@ -252,6 +276,10 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
             }
         } catch {
         }
+        if preguntas.count <= 0 {
+            performSegue(withIdentifier: "segueComprobar", sender: nil)
+        }
+
     }
     
     func buscarPreguntaContestada(){

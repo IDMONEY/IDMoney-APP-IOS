@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		78D8782635DBE58D9AB21009 /* Pods_IDMoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE3F03214DAD3D4E7ACE3EF /* Pods_IDMoneyTests.framework */; };
 		842022E0209C165800B694E5 /* NerdAcademyResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842022DF209C165800B694E5 /* NerdAcademyResultadoViewController.swift */; };
+		842667BB209E48C400903A81 /* LaunchImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 842667BA209E48C400903A81 /* LaunchImage.gif */; };
+		842667BE209E492D00903A81 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842667BD209E492D00903A81 /* UIImage+Gif.swift */; };
 		842A7012208D933500AA774D /* NerdAcademy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A7011208D933400AA774D /* NerdAcademy.storyboard */; };
 		842A7014208D935700AA774D /* NerdAcademyQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A7013208D935700AA774D /* NerdAcademyQuizViewController.swift */; };
 		842A7018208D94E500AA774D /* customEstilo1UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A7017208D94E500AA774D /* customEstilo1UIButton.m */; };
@@ -94,6 +96,8 @@
 		2E30A8F7A4B650628F67207A /* Pods-IDMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDMoney/Pods-IDMoney.release.xcconfig"; sourceTree = "<group>"; };
 		7EFCC5346427325A036676AF /* Pods-IDMoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDMoneyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDMoneyTests/Pods-IDMoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		842022DF209C165800B694E5 /* NerdAcademyResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerdAcademyResultadoViewController.swift; sourceTree = "<group>"; };
+		842667BA209E48C400903A81 /* LaunchImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = LaunchImage.gif; path = Image/LaunchImage.gif; sourceTree = "<group>"; };
+		842667BD209E492D00903A81 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		842A7011208D933400AA774D /* NerdAcademy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NerdAcademy.storyboard; sourceTree = "<group>"; };
 		842A7013208D935700AA774D /* NerdAcademyQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NerdAcademyQuizViewController.swift; sourceTree = "<group>"; };
 		842A7015208D94E400AA774D /* IDMoney-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDMoney-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -211,6 +215,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		842667BC209E48F500903A81 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				842667BD209E492D00903A81 /* UIImage+Gif.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		842A700D208D92D500AA774D /* NerdAcademy */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +270,7 @@
 		C33ABA192086CF2600E01D83 /* IDMoney */ = {
 			isa = PBXGroup;
 			children = (
+				842667BC209E48F500903A81 /* Utilities */,
 				842A700E208D92E500AA774D /* Storyboards */,
 				842A700D208D92D500AA774D /* NerdAcademy */,
 				C3DD95012086F9C000CFF1B5 /* Image */,
@@ -331,6 +344,7 @@
 		C3DD95012086F9C000CFF1B5 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				842667BA209E48C400903A81 /* LaunchImage.gif */,
 				C3DD951420871C5A00CFF1B5 /* chart.png */,
 				C3DD95022086FA1300CFF1B5 /* Ayuda.png */,
 				C3DD95032086FA1300CFF1B5 /* Cerrar Sesión.png */,
@@ -477,6 +491,7 @@
 				C33ABA282086CF2600E01D83 /* LaunchScreen.storyboard in Resources */,
 				C33ABA252086CF2600E01D83 /* Assets.xcassets in Resources */,
 				C3DD951520871C5A00CFF1B5 /* chart.png in Resources */,
+				842667BB209E48C400903A81 /* LaunchImage.gif in Resources */,
 				C3DD950E2086FA1300CFF1B5 /* Exchange button.png in Resources */,
 				C3DD950D2086FA1300CFF1B5 /* Direcciones.png in Resources */,
 				C3DD950F2086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif in Resources */,
@@ -587,6 +602,7 @@
 				C33ABA732086E62000E01D83 /* AgendarOrigenDestinoCotroller.swift in Sources */,
 				C33ABA922086E62000E01D83 /* Usuario2.swift in Sources */,
 				C33ABA852086E62000E01D83 /* Res_RegistrarUsuario.swift in Sources */,
+				842667BE209E492D00903A81 /* UIImage+Gif.swift in Sources */,
 				C33ABA832086E62000E01D83 /* Res_CalcularViaje.swift in Sources */,
 				C33ABA862086E62000E01D83 /* Response_Base.swift in Sources */,
 				C33ABA822086E62000E01D83 /* Request_Base.swift in Sources */,

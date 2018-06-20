@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		78D8782635DBE58D9AB21009 /* Pods_IDMoneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE3F03214DAD3D4E7ACE3EF /* Pods_IDMoneyTests.framework */; };
+		841A98E920D9D57C0062B3A4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 841A98EB20D9D57C0062B3A4 /* Localizable.strings */; };
 		842022E0209C165800B694E5 /* NerdAcademyResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842022DF209C165800B694E5 /* NerdAcademyResultadoViewController.swift */; };
 		842667BB209E48C400903A81 /* LaunchImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 842667BA209E48C400903A81 /* LaunchImage.gif */; };
 		842667BE209E492D00903A81 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842667BD209E492D00903A81 /* UIImage+Gif.swift */; };
@@ -95,6 +96,10 @@
 		04384C2D9BD98B76B240D909 /* Pods-IDMoneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDMoneyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDMoneyUITests/Pods-IDMoneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E30A8F7A4B650628F67207A /* Pods-IDMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDMoney.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDMoney/Pods-IDMoney.release.xcconfig"; sourceTree = "<group>"; };
 		7EFCC5346427325A036676AF /* Pods-IDMoneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDMoneyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDMoneyTests/Pods-IDMoneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		841A98EA20D9D57C0062B3A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		841A98EC20D9D5F40062B3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		841A98ED20D9D6460062B3A4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		841A98EE20D9D7490062B3A4 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		842022DF209C165800B694E5 /* NerdAcademyResultadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerdAcademyResultadoViewController.swift; sourceTree = "<group>"; };
 		842667BA209E48C400903A81 /* LaunchImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = LaunchImage.gif; path = Image/LaunchImage.gif; sourceTree = "<group>"; };
 		842667BD209E492D00903A81 /* UIImage+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
@@ -241,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				842A7011208D933400AA774D /* NerdAcademy.storyboard */,
+				841A98EB20D9D57C0062B3A4 /* Localizable.strings */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -465,6 +471,8 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				ja,
 			);
 			mainGroup = C33ABA0E2086CF2600E01D83;
 			productRefGroup = C33ABA182086CF2600E01D83 /* Products */;
@@ -496,6 +504,7 @@
 				C3DD950D2086FA1300CFF1B5 /* Direcciones.png in Resources */,
 				C3DD950F2086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif in Resources */,
 				842A701C208D965700AA774D /* PreguntaTableViewCell.xib in Resources */,
+				841A98E920D9D57C0062B3A4 /* Localizable.strings in Resources */,
 				C33ABA202086CF2600E01D83 /* Main.storyboard in Resources */,
 				C3DD95102086FA1300CFF1B5 /* Pantalla vision.png in Resources */,
 			);
@@ -679,6 +688,17 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		841A98EB20D9D57C0062B3A4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841A98EA20D9D57C0062B3A4 /* en */,
+				841A98EC20D9D5F40062B3A4 /* Base */,
+				841A98ED20D9D6460062B3A4 /* es */,
+				841A98EE20D9D7490062B3A4 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		C33ABA1E2086CF2600E01D83 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -702,6 +722,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -751,6 +772,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

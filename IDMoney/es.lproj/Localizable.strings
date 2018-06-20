@@ -1,0 +1,732 @@
+/*
+ Localizable.strings
+ IDMoney
+ 
+ Created by Luis Gutierrez on 5/6/18.
+ Copyright © 2018 Administrator. All rights reserved.
+ */
+
+/*
+ Localizable.strings
+ IDMoney
+ 
+ Created by Luis Gutierrez on 5/6/18.
+ Copyright © 2018 Administrator. All rights reserved.
+ */
+
+"pregunta1.pregunta" = "¿Por qué IDMoney es social?";
+"pregunta1.RespuestaCorrecta" = "4";
+"pregunta1.IDRespuesta" = "1";
+"pregunta1.Respuesta1" = "Porque el proyecto se creó solamente para ayudar a políticos.";
+"pregunta1.Respuesta2" = "Porque el proyecto se creó solamente para ayudar a gente rica.";
+"pregunta1.Respuesta3" = "Porque el proyecto se creó solamente para ayudar a gente pobre.";
+"pregunta1.Respuesta4" = "Porque el proyecto contiene algunas características importantes diseñadas para ayudar a reducir la pobreza.";
+
+
+"pregunta2.pregunta" = "¿Qué aspectos sociales contiene el proyecto IDMoney?";
+"pregunta2.RespuestaCorrecta" = "3";
+"pregunta2.IDRespuesta" = "2";
+"pregunta2.Respuesta1" = "Lucha por la paz mundial.";
+"pregunta2.Respuesta2" = "El proyecto apoyará deportes para unir a las personas.";
+"pregunta2.Respuesta3" = "El proyecto incluye transferir tokens IDM a personas muy pobres con el fin de ayudar a reducir la pobrez.";
+"pregunta2.Respuesta4" = "Los aspectos sociales no son muy importantes dentro del proyecto.";
+
+
+
+"pregunta3.pregunta" = "¿Qué porcentaje o cantidad de tokens IDM se distribuirá, como parte del proyecto, entre los pobres?";
+"pregunta3.RespuestaCorrecta" = "1";
+"pregunta3.IDRespuesta" = "3";
+"pregunta3.Respuesta1" = "Un 20% del total de tokens totales IDM que se crearon.";
+"pregunta3.Respuesta2" = "Un 18% del total de tokens totales IDM que se crearon.";
+"pregunta3.Respuesta3" = "Un 20% de los tokens ETH que se colecten durante la venta de tokens IDM.";
+"pregunta3.Respuesta4" = "Cero.";
+
+
+
+"pregunta4.pregunta" = "¿Qué cantidad de tokens IDM se distribuirá entre los pobres, como parte del proyecto?";
+"pregunta4.RespuestaCorrecta" = "3";
+"pregunta4.IDRespuesta" = "4";
+"pregunta4.Respuesta1" = "3.5 millones de tokens IDM";
+"pregunta4.Respuesta2" = "6.3 millones de tokens IDM.";
+"pregunta4.Respuesta3" = "7 millones de tokens IDM.";
+"pregunta4.Respuesta4" = "Cero.";
+
+
+"pregunta5.pregunta" = "¿Qué cantidad de tokens ETH se distribuirá a los pobres, como parte del proyecto?";
+"pregunta5.RespuestaCorrecta" = "4";
+"pregunta5.IDRespuesta" = "5";
+"pregunta5.Respuesta1" = "10% del total de tokens ETH que se colecten durante la venta";
+"pregunta5.Respuesta2" = "El equivalente en ETH al 10% de los tokens totales IDM que se crearon.";
+"pregunta5.Respuesta3" = "3.5 millones de tokens IDM.";
+"pregunta5.Respuesta4" = "Cero.";
+
+
+"pregunta6.pregunta" = "¿Cuánto tendrán que pagar los pobres para obtener los tokens IDM que el proyecto contempla distribuir entre los pobres?";
+"pregunta6.RespuestaCorrecta" = "4";
+"pregunta6.IDRespuesta" = "6";
+"pregunta6.Respuesta1" = "El equivalente a $0.75 USD por cada IDM.";
+"pregunta6.Respuesta2" = "El equivalente a $0.37 USD por cada IDM.";
+"pregunta6.Respuesta3" = "0.00075 ETH por cada IDM.";
+"pregunta6.Respuesta4" = "Cero.";
+
+
+"pregunta7.pregunta" = "Los pobres a los que se les transferirán tokens IDM serán de:";
+"pregunta7.RespuestaCorrecta" = "2";
+"pregunta7.IDRespuesta" = "7";
+"pregunta7.Respuesta1" = "Un único país.";
+"pregunta7.Respuesta2" = "Tres gobiernos locales distintos del mundo, seleccionados para participar en el proyecto.";
+"pregunta7.Respuesta3" = "Todo el mundo.";
+"pregunta7.Respuesta4" = "Tres continentes diferentes.";
+
+
+"pregunta8.pregunta" = "¿Quién seleccionará a los pobres que recibirán tokens IDM que el proyecto contempla repartir?";
+"pregunta8.RespuestaCorrecta" = "3";
+"pregunta8.IDRespuesta" = "8";
+"pregunta8.Respuesta1" = "Políticos.";
+"pregunta8.Respuesta2" = "IDMoney S.A.";
+"pregunta8.Respuesta3" = "Tres gobiernos locales, junto con organizaciones locales.";
+"pregunta8.Respuesta4" = "Los token holders.";
+
+"pregunta9.pregunta" = "¿Por qué razón los gobiernos locales querrán participar en el proyecto?";
+"pregunta9.RespuestaCorrecta" = "4";
+"pregunta9.IDRespuesta" = "9";
+"pregunta9.Respuesta1" = "Por lo de la donación del 20% de los tokens IDM a personas pobres.";
+"pregunta9.Respuesta2" = "Por recibir un proyecto crypto de avanzada.";
+"pregunta9.Respuesta3" = "Para poder aprovechar el software de la Money Making Wallet.";
+"pregunta9.Respuesta4" = "Todas las anteriores.";
+
+"pregunta10.pregunta" = "¿Cuándo se hará la transferencia de tokens a los pobres?";
+"pregunta10.RespuestaCorrecta" = "1";
+"pregunta10.IDRespuesta" = "10";
+"pregunta10.Respuesta1" = "Hacia el final del proyecto cuando los gobiernos locales estén listos.";
+"pregunta10.Respuesta2" = "Apenas se termine la venta de tokens IDM.";
+"pregunta10.Respuesta3" = "Tres años después de iniciada la venta de tokens IDM.";
+"pregunta10.Respuesta4" = "Poco antes de terminar el proyecto.";
+
+
+"pregunta11.pregunta" = "¿Qué requisitos deben cumplir las personas para recibir tokens IDM de los que se repartirán entre los pobres?";
+"pregunta11.RespuestaCorrecta" = "4";
+"pregunta11.IDRespuesta" = "11";
+"pregunta11.Respuesta1" = "Ser seleccionada y tener una cuenta bancaria.";
+"pregunta11.Respuesta2" = "Ser seleccionada basta.";
+"pregunta11.Respuesta3" = "Tener una billetera de crypto tokens cualquiera.";
+"pregunta11.Respuesta4" = "Ser seleccionadas y tener billetera crypto compatible.";
+
+
+"pregunta12.pregunta" = "¿Actualmente existen billeteras crypto gratuitas, que puedan usar las personas pobres para recibir tokens IDM?";
+"pregunta12.RespuestaCorrecta" = "2";
+"pregunta12.IDRespuesta" = "12";
+"pregunta12.Respuesta1" = "No.";
+"pregunta12.Respuesta2" = "Sí existen.";
+"pregunta12.Respuesta3" = "No hay; habrá que esperar la Money Making Wallet de IDMoney.";
+"pregunta12.Respuesta4" = "Nunca habrán.";
+
+
+"pregunta13.pregunta" = "¿Cómo se resolverá el problema de que algunos pobres pueden no tienen la habilidad de manejar una billetera de tokens crypto?";
+"pregunta13.RespuestaCorrecta" = "1";
+"pregunta13.IDRespuesta" = "13";
+"pregunta13.Respuesta1" = "Se intentará que los gobiernos locales establezcan un programa educativo, de ayuda y de conectividad para los pobres.";
+"pregunta13.Respuesta2" = "IDMoney S.A. dará entrenamiento.";
+"pregunta13.Respuesta3" = "Creará un manual para crear y utilizar una billetera crypto.";
+"pregunta13.Respuesta4" = "No hará nada.";
+
+
+"pregunta14.pregunta" = "¿Qué es la Herramienta de Alivio de la Pobreza que se desarrolla en el Proyecto IDMoney?";
+"pregunta14.RespuestaCorrecta" = "4";
+"pregunta14.IDRespuesta" = "14";
+"pregunta14.Respuesta1" = "Es un software que se usará para repartir el 20% de los tokens IDM que se repartirán entre los pobres.";
+"pregunta14.Respuesta2" = "Es un hardware (un aparato o dispositivo).";
+"pregunta14.Respuesta3" = "Es un software especial para coordinar programas de lucha contra la pobreza, que funciona sobre una red local.";
+"pregunta14.Respuesta4" = "Es un software para manejar y coordinar programas de lucha contra la pobreza.";
+
+
+"pregunta15.pregunta" = "¿Para qué se está desarrollando la Herramienta de Alivio de la Pobreza?";
+"pregunta15.RespuestaCorrecta" = "3";
+"pregunta15.IDRespuesta" = "15";
+"pregunta15.Respuesta1" = "Para que empresas privadas la implementen.";
+"pregunta15.Respuesta2" = "Para llevar estadísticas de pobreza.";
+"pregunta15.Respuesta3" = "Para ayudar a que diferentes programas sociales compartan recursos y datos, y se coordinen mejor.";
+"pregunta15.Respuesta4" = "Sólo para uso de los gobiernos locales.";
+
+
+
+"pregunta16.pregunta" = "¿Qué problema resolvería la Herramienta de Alivio de la Pobreza de IDMoney a los programas de combate a la pobreza de diferentes organizaciones?";
+"pregunta16.RespuestaCorrecta" = "3";
+"pregunta16.IDRespuesta" = "16";
+"pregunta16.Respuesta1" = "La falta de recursos económicos.";
+"pregunta16.Respuesta2" = "La lentitud de los sistemas existentes.";
+"pregunta16.Respuesta3" = "La falta de una plataforma común que les permita comunicarse y coordinar los programas ";
+"pregunta16.Respuesta4" = "La inseguridad de los sistemas existentes.";
+
+
+"pregunta17.pregunta" = "¿Qué otro problema le ayuda a resolver la Herramienta de Alivio de la Pobreza de IDMoney a los programas de alivio de la pobreza de diferentes organizaciones?";
+"pregunta17.RespuestaCorrecta" = "1";
+"pregunta17.IDRespuesta" = "17";
+"pregunta17.Respuesta1" = "Evitaría que se otorguen ayudas redundantes a las mismas personas mientras otras no reciben ayuda.";
+"pregunta17.Respuesta2" = "La excesiva comunicación entre sus diferentes sistemas.";
+"pregunta17.Respuesta3" = "El excesivo consumo de electricidad de sus sistemas.";
+"pregunta17.Respuesta4" = "El aburrimiento de los operadores de sus sistemas.";
+
+
+"pregunta18.pregunta" = "Mencione una ventaja que produciría el que distintos programas de Alivio de la Pobreza usen la misma Herramienta de Alivio de la Pobreza de IDMoney:";
+"pregunta18.RespuestaCorrecta" = "2";
+"pregunta18.IDRespuesta" = "18";
+"pregunta18.Respuesta1" = "No tendría beneficios.";
+"pregunta18.Respuesta2" = "Podrán comparar, verificar y documentar  los datos de manera conjunta; evita la duplicación de esfuerzos.";
+"pregunta18.Respuesta3" = "Generaría multiplicación de esfuerzos para conseguir y/o confirmar un mismo dato.";
+"pregunta18.Respuesta4" = "Generaría más gastos.";
+
+
+"pregunta19.pregunta" = "La Herramienta de Alivio de la Pobreza la podrán usar para ponerla a funcionar:";
+"pregunta19.RespuestaCorrecta" = "4";
+"pregunta19.IDRespuesta" = "19";
+"pregunta19.Respuesta1" = "Solamente gobiernos centrales.";
+"pregunta19.Respuesta2" = "Solamente gobiernos locales.";
+"pregunta19.Respuesta3" = "Solamente organizaciones internaciones.";
+"pregunta19.Respuesta4" = "Cualquiera que quiera implementar el uso de la herramienta, pues es software libre.";
+
+
+"pregunta20.pregunta" = "¿Cuáles datos de la personalidad virtual de los usuarios de la (MMW APP) sería beneficioso que ellos compartieran con la Herramienta de Alivio de la Pobreza?";
+"pregunta20.RespuestaCorrecta" = "2";
+"pregunta20.IDRespuesta" = "20";
+"pregunta20.Respuesta1" = "Los datos básicos de los usuarios de la MMW.";
+"pregunta20.Respuesta2" = "Principalmente as necesidades de ayuda que tienen los usuarios de la MMW en distintas áreas.";
+"pregunta20.Respuesta3" = "La información sobre las propiedades y  activos financieros de las personas.";
+"pregunta20.Respuesta4" = "Ningún dato.";
+
+
+"pregunta21.pregunta" = "Las organizaciones usuarias de la Herramienta de Alivio de la Pobreza podrán leer la información que hayan puesto las personas en Money Making Wallets (MMW):";
+"pregunta21.RespuestaCorrecta" = "3";
+"pregunta21.IDRespuesta" = "21";
+"pregunta21.Respuesta1" = "Siempre.";
+"pregunta21.Respuesta2" = "Nunca.";
+"pregunta21.Respuesta3" = "Solo cuando el usuario de la aplicación MMW, por voluntad propia, comparta esa información con ellas.";
+
+"pregunta22.pregunta" = "¿Por qué razón querrían las personas usuarias de la Money Making Wallet APP querer compartir información con las organizaciones que luchan contra la pobreza?";
+"pregunta22.RespuestaCorrecta" = "3";
+"pregunta22.IDRespuesta" = "22";
+"pregunta22.Respuesta1" = "No querrán compartir información pues no tienen beneficios.";
+"pregunta22.Respuesta2" = "Para que esas organizaciones tengan sus datos básicos.";
+"pregunta22.Respuesta3" = "Para que esas organizaciones conozcan sus necesidades exactas de ayuda.";
+"pregunta22.Respuesta4" = "No es necesario que quieran compartir la información.";
+
+
+"pregunta23.pregunta" = "¿Quiénes se benefician con lo de la donación que hará IDMoney del 20% de sus tokens IDM a personas pobres y con el uso de la Herramienta de Alivio de la Pobreza?";
+"pregunta23.RespuestaCorrecta" = "4";
+"pregunta23.IDRespuesta" = "23";
+"pregunta23.Respuesta1" = "Solamente las personas que reciban tokens IDM.";
+"pregunta23.Respuesta2" = "Solamente los gobiernos locales, porque tendrán en sus regiones un programa de alivio de alivio a la pobreza efectivo.";
+"pregunta23.Respuesta3" = "Solamente las organizaciones que luchan contra la pobreza.";
+"pregunta23.Respuesta4" = "Las personas que reciban tokens IDM; las que  compartan sus necesidades de ayuda; las organizaciones que luchan contra la pobreza; y los gobiernos locales.";
+
+
+"pregunta24.pregunta" = "¿Qué ventaja o beneficio tiene el Proyecto IDMoney al incluir características o componentes sociales en el proyecto?";
+"pregunta24.RespuestaCorrecta" = "1";
+"pregunta24.IDRespuesta" = "24";
+"pregunta24.Respuesta1" = "Lo hace atractivo para los gobiernos locales; para los compradores de tokens que les guste ayudar; y para los pobres.";
+"pregunta24.Respuesta2" = "Lo hacen atractivo para los gobiernos locales, pero no para los compradores de tokens.";
+"pregunta24.Respuesta3" = "Lo hacen atractivo solamente para los pobres.";
+"pregunta24.Respuesta4" = "Los componentes sociales del proyecto no son de beneficio para nadie.";
+
+
+"pregunta25.pregunta" = "¿Distribuir un 20% de los tokens IDMoney a los pobres por gobiernos locales es sólo por ayudar o tiene algún propósito adicional?";
+"pregunta25.RespuestaCorrecta" = "4";
+"pregunta25.IDRespuesta" = "25";
+"pregunta25.Respuesta1" = "Es para ayudar a personas pobres.";
+"pregunta25.Respuesta2" = "Algunos podrían aprovechar para educarse en finanzas usando crypto tokens.";
+"pregunta25.Respuesta3" = "Es un experimento social para reducir la pobreza.";
+"pregunta25.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta26.pregunta" = "¿Por qué razón IDMoney es o será público?";
+"pregunta26.RespuestaCorrecta" = "3";
+"pregunta26.IDRespuesta" = "26";
+"pregunta26.Respuesta1" = "Porque es popular.";
+"pregunta26.Respuesta2" = "Porque el software que se desarrollará será para instituciones públicas.";
+"pregunta26.Respuesta3" = "Porque al final del proyecto las acciones de la compañía se donarán a tres gobiernos locales que acepten participar.";
+"pregunta26.Respuesta4" = "No es de propiedad pública, pero el software es para el público";
+
+
+"pregunta27.pregunta" = "¿Cómo contactará IDMoney S.A. a los gobiernos locales que se quiera atraer para participar en el proyecto?";
+"pregunta27.RespuestaCorrecta" = "4";
+"pregunta27.IDRespuesta" = "27";
+"pregunta27.Respuesta1" = "Mediante publicidad.";
+"pregunta27.Respuesta2" = "Se contactará por email a gobiernos locales donde es legal la venta de tokens.";
+"pregunta27.Respuesta3" = "Se les visitará personalmente.";
+"pregunta27.Respuesta4" = "Todas las opciones anteriores dentro de un programa coordinado de Embajadores de IDMoney.";
+
+
+"pregunta28.pregunta" = "¿Cómo se pueden convertir los compradores de tokens IDMoney en embajadores del proyecto?";
+"pregunta28.RespuestaCorrecta" = "2";
+"pregunta28.IDRespuesta" = "28";
+"pregunta28.Respuesta1" = "Sólo solicitando a IDMoney querer ser embajadores.";
+"pregunta28.Respuesta2" = "Por medo de la IDMoney Play App que es para los compradores, se podrán capacitar y  solicitar ser nombrados embajadores.";
+"pregunta28.Respuesta3" = "Solamente contactando gobiernos locales, sin necesidad de prepararse.";
+
+
+"pregunta29.pregunta" = "¿Cuál será la función principal de los embajadores del proyecto IDMoney?";
+"pregunta29.RespuestaCorrecta" = "4";
+"pregunta29.IDRespuesta" = "29";
+"pregunta29.Respuesta1" = "Hablar bien del proyecto.";
+"pregunta29.Respuesta2" = "Informar al público y a los gobiernos locales del mundo sobre el proyecto.";
+"pregunta29.Respuesta3" = "Contactar a gobiernos locales por vía de correo electrónico.";
+"pregunta29.Respuesta4" = "Con apoyo de IDMoney, establecer contacto con gobiernos locales del mundo y tratar de traerlos al proyecto.";
+
+
+"pregunta30.pregunta" = "¿Qué significa que un gobierno local participa en el proyecto?";
+"pregunta30.RespuestaCorrecta" = "4";
+"pregunta30.IDRespuesta" = "30";
+"pregunta30.Respuesta1" = "Que le gusta el proyecto.";
+"pregunta30.Respuesta2" = "Que desear llegar a la implementación del software.";
+"pregunta30.Respuesta3" = "Que aceptará la donación de las acciones de IDMoney S.A.";
+"pregunta30.Respuesta4" = "Todas las anteriores, más ser seleccionado para participar en el proyecto.";
+
+
+"pregunta31.pregunta" = "¿Por qué querrían los compradores de tokens convertirse en embajadores de IDMoney?";
+"pregunta31.RespuestaCorrecta" = "3";
+"pregunta31.IDRespuesta" = "31";
+"pregunta31.Respuesta1" = "Por el prestigio del proyecto.";
+"pregunta31.Respuesta2" = "Por la emoción de participar en la búsqueda de los gobiernos locales.";
+"pregunta31.Respuesta3" = "Por ayudar a realizar uno de los objetivos principales del proyecto y por los premios que pueden ganar.";
+"pregunta31.Respuesta4" = "No querrían participar.";
+
+
+"pregunta32.pregunta" = "¿Cuál será el gran premio para cada embajador que logre traer un gobierno local que quede participando en el proyecto?";
+"pregunta32.RespuestaCorrecta" = "4";
+"pregunta32.IDRespuesta" = "32";
+"pregunta32.Respuesta1" = "$10,000 USD.";
+"pregunta32.Respuesta2" = "100 ETH.";
+"pregunta32.Respuesta3" = "100,000 IDM.";
+"pregunta32.Respuesta4" = "100,000 IDM y 400 ETH.";
+
+
+"pregunta33.pregunta" = "¿Cuándo se pagará el premio por traer un gobierno local que quede participando en el proyecto al embajador?";
+"pregunta33.RespuestaCorrecta" = "4";
+"pregunta33.IDRespuesta" = "33";
+"pregunta33.Respuesta1" = "Apenas el gobierno sea seleccionado para participar en el proyecto.";
+"pregunta33.Respuesta2" = "Apenas el gobierno comunique oficialmente que desea participar en el proyecto.";
+"pregunta33.Respuesta3" = "Después de que se reparta el 20% de los tokens a los pobres.";
+"pregunta33.Respuesta4" = "Después de que se concrete la donación de las acciones de IDMoney S.A. al gobierno local que trajo.";
+
+
+"pregunta34.pregunta" = "¿Habrá otros premios para los embajadores que pasen pruebas o logren otros objetivos aparte de traer alguno de los tres gobiernos locales?";
+"pregunta34.RespuestaCorrecta" = "2";
+"pregunta34.IDRespuesta" = "34";
+"pregunta34.Respuesta1" = "No.";
+"pregunta34.Respuesta2" = "Sí.";
+"pregunta34.Respuesta3" = "Sólo si traen un gobierno local que casi resulte elegido para participar.";
+"pregunta34.Respuesta4" = "Talvez.";
+
+
+"pregunta35.pregunta" = "¿Qué características deberán tener los gobiernos locales para ser elegibles para participar en el proyecto?";
+"pregunta35.RespuestaCorrecta" = "4";
+"pregunta35.IDRespuesta" = "35";
+"pregunta35.Respuesta1" = "Gustarle el proyecto.";
+"pregunta35.Respuesta2" = "Que en su país o en su territorio sea legal realizar transacciones con crypto tokens.";
+"pregunta35.Respuesta3" = "Querer llegar a implementar el software del proyecto.";
+"pregunta35.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta36.pregunta" = "¿Cuántos gobiernos locales serán elegidos para quedar participando en el proyecto y recibir la donación de las acciones de IDMoney S.A.?";
+"pregunta36.RespuestaCorrecta" = "1";
+"pregunta36.IDRespuesta" = "36";
+"pregunta36.Respuesta1" = "Tres.";
+"pregunta36.Respuesta2" = "Cinco.";
+"pregunta36.Respuesta3" = "Diez.";
+"pregunta36.Respuesta4" = "No hay límite fijo.";
+
+
+"pregunta37.pregunta" = "¿Quién seleccionará los gobiernos locales que quedarán  participando en el proyecto?";
+"pregunta37.RespuestaCorrecta" = "2";
+"pregunta37.IDRespuesta" = "37";
+"pregunta37.Respuesta1" = "IDMoney S.A.";
+"pregunta37.Respuesta2" = "Los token holders, por votación, seleccionarán a los gobiernos locales de entre una lista de elegibles.";
+"pregunta37.Respuesta3" = "Gobernance Labs.";
+"pregunta37.Respuesta4" = "Legal Labs, la empresa que conduce de forma exclusiva la venta de los tokens IDM.";
+
+
+"pregunta38.pregunta" = "¿Qué se hará con los gobiernos locales que no resulten sean seleccionados?";
+"pregunta38.RespuestaCorrecta" = "3";
+"pregunta38.IDRespuesta" = "38";
+"pregunta38.Respuesta1" = "Simplemente no podrán participar.";
+"pregunta38.Respuesta2" = "Se perderán la oportunidad y no podrán participar en otro proyecto similar.";
+"pregunta38.Respuesta3" = "Podrán participar en un nuevo proyecto que se llamará Global Money.";
+"pregunta38.Respuesta4" = "No podrán participar y no se les dará seguimiento.";
+
+
+"pregunta39.pregunta" = "¿Cuál es el precio de venta de los tokens IDM en la venta oficial que es manejada por Legal Labs?";
+"pregunta39.RespuestaCorrecta" = "2";
+"pregunta39.IDRespuesta" = "39";
+"pregunta39.Respuesta1" = "US $0.75 por cada IDM.";
+"pregunta39.Respuesta2" = "0.00075 ETH por cada IDM.";
+"pregunta39.Respuesta3" = "0.75 ETH por cada IDM.";
+"pregunta39.Respuesta4" = "Ninguna de las opciones anteriores.";
+
+
+"pregunta40.pregunta" = "¿El precio del IDM sube o baja de valor conforme suba o baje el valore de cuál de los siguientes tokens o moneda?";
+"pregunta40.RespuestaCorrecta" = "3";
+"pregunta40.IDRespuesta" = "40";
+"pregunta40.Respuesta1" = "Dólar estadounidense.";
+"pregunta40.Respuesta2" = "Bitcoin.";
+"pregunta40.Respuesta3" = "Ethereum.";
+"pregunta40.Respuesta4" = "Ninguna de las opciones anteriores.";
+
+
+"pregunta41.pregunta" = "¿Cuáles empresas pertenecen al Crypto Social Consortium que maneja el Proyecto IDMoney?";
+"pregunta41.RespuestaCorrecta" = "4";
+"pregunta41.IDRespuesta" = "41";
+"pregunta41.Respuesta1" = "IDMoney S.A. y Legal Crypto Labs Global.";
+"pregunta41.Respuesta2" = "Legal Crypto Labs Global y IDMoney S.A.";
+"pregunta41.Respuesta3" = "Gobernance Labs y IDMoney S.A.";
+"pregunta41.Respuesta4" = "Gobernance Labs, Legal Crypto Labs Global, Cryptoland y IDMoney S.A.";
+
+
+"pregunta42.pregunta" = "¿Las acciones de cuál o cuáles compañías serán donadas a los gobiernos locales?";
+"pregunta42.RespuestaCorrecta" = "2";
+"pregunta42.IDRespuesta" = "42";
+"pregunta42.Respuesta1" = "Gobernance Crypto Labs Global y IDMoney S.A.";
+"pregunta42.Respuesta2" = "IDMoney S.A.";
+"pregunta42.Respuesta3" = "Gobernance Labs y IDMoney S.A.";
+"pregunta42.Respuesta4" = "Cryptoland.TV y IDMoney S.A.";
+
+
+"pregunta43.pregunta" = "¿Intentará IDMoney S.A. o cualquiera de las empresas del Crypto Liberty Group crear un mercado secundario para transar tokens IDM?";
+"pregunta43.RespuestaCorrecta" = "1";
+"pregunta43.IDRespuesta" = "43";
+"pregunta43.Respuesta1" = "No lo harán.";
+"pregunta43.Respuesta2" = "Sí lo harán.";
+"pregunta43.Respuesta3" = "Pedirán a alguien que lo haga.";
+"pregunta43.Respuesta4" = "Ninguna de las opciones anteriores.";
+
+
+
+"pregunta45.pregunta" = "A los gobiernos locales, que queden a cargo del proyecto, ¿les serviría que suba el valor del Ethereum token (ETH)?";
+"pregunta45.RespuestaCorrecta" = "3";
+"pregunta45.IDRespuesta" = "45";
+"pregunta45.Respuesta1" = "Es indiferente, el valor del ETH nada tiene que ver con el valor del token IDM.";
+"pregunta45.Respuesta2" = "No les sirve porque si el ETH sube de valor, automáticamente baja el valor del IDM.";
+"pregunta45.Respuesta3" = "Sí; si sube el valor del ETH  también subirá el valor del IDM;  eso beneficia a los pobres.";
+
+
+"pregunta46.pregunta" = "Si alguien  creara un mercado secundario para transar tokens IDM y en ese mercado los IDM subieran de valor, ¿eso le convendría a los gobiernos locales?";
+"pregunta46.RespuestaCorrecta" = "3";
+"pregunta46.IDRespuesta" = "46";
+"pregunta46.Respuesta1" = "Eso les sería indiferente.";
+"pregunta46.Respuesta2" = "No les serviría.";
+"pregunta46.Respuesta3" = "Sí les serviría; para que los tokens que se transfieran a los pobres tengan mayor valor.";
+"pregunta46.Respuesta4" = "No; no es conveniente que los tokens IDM suban de valor.";
+
+
+"pregunta47.pregunta" = "Si alguien creara un mercado secundario para transar tokens IDM, ¿las acciones de los gobiernos locales podrían hacer que los tokens IDM suban de valor?";
+"pregunta47.RespuestaCorrecta" = "2";
+"pregunta47.IDRespuesta" = "47";
+"pregunta47.Respuesta1" = "Normalmente no.";
+"pregunta47.Respuesta2" = "Sí, depende de las acciones que realicen.";
+"pregunta47.Respuesta3" = "No hay nada que puedan hacer para que el token IDM suba de valor.";
+"pregunta47.Respuesta4" = "Ninguna de las opciones anteriores.";
+
+
+"pregunta48.pregunta" = "Si existiera un mercado secundario para los tokens IDM, ¿cuáles acciones que tomen los gobiernos locales podrían hacer que el proyecto suba de valor?";
+"pregunta48.RespuestaCorrecta" = "4";
+"pregunta48.IDRespuesta" = "48";
+"pregunta48.Respuesta1" = "Cada vez que se anuncie públicamente que un gobierno local está participando en el proyecto.";
+"pregunta48.Respuesta2" = "Cada vez que uno de los gobiernos locales anuncie que se concretó la transferencia de tokens a las personas pobres.";
+"pregunta48.Respuesta3" = "Si implementaran el software y lo aprovecharan  en cosas como permitir el pago de impuestos y servicios con tokens IDM.";
+"pregunta48.Respuesta4" = "Todas las opciones anteriores.";
+
+
+"pregunta50.pregunta" = "¿Qué es la Money Making Wallet (MMW) de IDMoney?";
+"pregunta50.RespuestaCorrecta" = "4";
+"pregunta50.IDRespuesta" = "50";
+"pregunta50.Respuesta1" = "Es una aplicación que desarrolla IDMoney S.A. que permitirá almacenar y transferir tokens IDM.";
+"pregunta50.Respuesta2" = "Es una aplicación que desarrolla IDMoney S.A. que permitirá almacenar y transferir otros tipos de tokens.";
+"pregunta50.Respuesta3" = "Es una aplicación que desarrolla IDMoney S.A. que incluye utilidades adicionales a las que tienen las billeteras crypto comúnes.";
+"pregunta50.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta51.pregunta" = "¿Cuál de las siguientes es una función de la Money Making Wallet App. (MMW)?";
+"pregunta51.RespuestaCorrecta" = "4";
+"pregunta51.IDRespuesta" = "51";
+"pregunta51.Respuesta1" = "Recibir tokens provenientes de otras billeteras MMW o diferentes.";
+"pregunta51.Respuesta2" = "Transferir tokens crypto hacia otras billeteras MMW o diferentes.";
+"pregunta51.Respuesta3" = "Permitirá almacenar tokens crypto de diferentes tipos.";
+"pregunta51.Respuesta4" = "Todas las tres anteriores.";
+
+
+"pregunta52.pregunta" = "¿Cuál de las siguientes es una función especial de la Money Making Wallet (MMW)?";
+"pregunta52.RespuestaCorrecta" = "3";
+"pregunta52.IDRespuesta" = "52";
+"pregunta52.Respuesta1" = "Es un software diseñado exclusivamente para almacenar, manipular y mostrar las fotografías de un usuario.";
+"pregunta52.Respuesta2" = "Elimina los virus que puedan haber en un móvil.";
+"pregunta52.Respuesta3" = "Permitirá almacenar, mantener y compartir, si lo desea, la información de la personalidad virtual del usuario de la APP.";
+"pregunta52.Respuesta4" = "Permite chatear con voz entre diferentes usuarios.";
+
+"pregunta53.pregunta" = "¿Cuál de las siguientes es una función especial de la Money Making Wallet (MMW)?";
+"pregunta53.RespuestaCorrecta" = "1";
+"pregunta53.IDRespuesta" = "53";
+"pregunta53.Respuesta1" = "Credit Identity Theft Protection.";
+"pregunta53.Respuesta2" = "Antivirus protection.";
+"pregunta53.Respuesta3" = "Calendar.";
+"pregunta53.Respuesta4" = "Photo animation.";
+
+"pregunta54.pregunta" = "¿Cuál de las siguientes es una función especial de la Money Making Wallet (MMW)?";
+"pregunta54.RespuestaCorrecta" = "1";
+"pregunta54.IDRespuesta" = "54";
+"pregunta54.Respuesta1" = "Title Fraud Prevention.";
+"pregunta54.Respuesta2" = "Data Stealing Prevention.";
+"pregunta54.Respuesta3" = "Photo Stealing Prevention.";
+"pregunta54.Respuesta4" = "Ninguna de las anteriores.";
+
+"pregunta55.pregunta" = "¿Cuál de las siguientes es una función especial de la Money Making Wallet (MMW)?";
+"pregunta55.RespuestaCorrecta" = "3";
+"pregunta55.IDRespuesta" = "55";
+"pregunta55.Respuesta1" = "Bad Words Filter.";
+"pregunta55.Respuesta2" = "Word Processor & Translation.";
+"pregunta55.Respuesta3" = "Finantial Transaction Filter.";
+"pregunta55.Respuesta4" = "Bad Thoughts Filter.";
+
+"pregunta56.pregunta" = "¿Cuál de las siguientes tecnologías sería soportada con la Money Making Wallet?";
+"pregunta56.RespuestaCorrecta" = "2";
+"pregunta56.IDRespuesta" = "56";
+"pregunta56.Respuesta1" = "NHC.";
+"pregunta56.Respuesta2" = "NFC.";
+"pregunta56.Respuesta3" = "RFS.";
+"pregunta56.Respuesta4" = "FTP.";
+
+"pregunta57.pregunta" = "La personalidad virtual es similar a:";
+"pregunta57.RespuestaCorrecta" = "4";
+"pregunta57.IDRespuesta" = "57";
+"pregunta57.Respuesta1" = "Identidad virtual.";
+"pregunta57.Respuesta2" = "Entidad virtual.";
+"pregunta57.Respuesta3" = "Identidad digital.";
+"pregunta57.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta58.pregunta" = "¿Qué protege la personalidad virtual?";
+"pregunta58.RespuestaCorrecta" = "4";
+"pregunta58.IDRespuesta" = "58";
+"pregunta58.Respuesta1" = "Existencia.";
+"pregunta58.Respuesta2" = "Presencia.";
+"pregunta58.Respuesta3" = "Contenido y proyección.";
+"pregunta58.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta59.pregunta" = "¿Cuál es la manera más segura de guardar los datos?";
+"pregunta59.RespuestaCorrecta" = "1";
+"pregunta59.IDRespuesta" = "59";
+"pregunta59.Respuesta1" = "Fuera de Internet.";
+"pregunta59.Respuesta2" = "En Internet.";
+"pregunta59.Respuesta3" = "En blockchain.";
+"pregunta59.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta60.pregunta" = "¿Existe el derecho fundamental a no tener personalidad virtual?";
+"pregunta60.RespuestaCorrecta" = "1";
+"pregunta60.IDRespuesta" = "60";
+"pregunta60.Respuesta1" = "Sí.";
+"pregunta60.Respuesta2" = "No.";
+"pregunta60.Respuesta3" = "";
+"pregunta60.Respuesta4" = "";
+
+
+"pregunta61.pregunta" = "El derecho a no tener personalidad virtual tiene que ver con:";
+"pregunta61.RespuestaCorrecta" = "4";
+"pregunta61.IDRespuesta" = "61";
+"pregunta61.Respuesta1" = "Remover datos.";
+"pregunta61.Respuesta2" = "Regular la presencia.";
+"pregunta61.Respuesta3" = "Comer sin tener dispositivos electrónicos encendidos.";
+"pregunta61.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta62.pregunta" = "El derecho a tener o no tener personalidad virtual tendrá implicaciones en los contratos de usuarios de:";
+"pregunta62.RespuestaCorrecta" = "4";
+"pregunta62.IDRespuesta" = "62";
+"pregunta62.Respuesta1" = "Facebook.";
+"pregunta62.Respuesta2" = "Google.";
+"pregunta62.Respuesta3" = "Twitter.";
+"pregunta62.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta63.pregunta" = "Un ejemplo de protección del contenido en el derecho fundamental de la personalidad virtual es:";
+"pregunta63.RespuestaCorrecta" = "3";
+"pregunta63.IDRespuesta" = "63";
+"pregunta63.Respuesta1" = "Que no me puedan contactar sin mi permiso.";
+"pregunta63.Respuesta2" = "Comunicarme sin tensiones.";
+"pregunta63.Respuesta3" = "Compartir el contenido según mis condiciones.";
+"pregunta63.Respuesta4" = "Ninguna  de las anteriores.";
+
+
+"pregunta64.pregunta" = "Un ejemplo de protección de la presencia en el derecho fundamental de la personalidad virtual es:";
+"pregunta64.RespuestaCorrecta" = "1";
+"pregunta64.IDRespuesta" = "64";
+"pregunta64.Respuesta1" = "Que no me contacten sin mi permiso.";
+"pregunta64.Respuesta2" = "Poder manejar mi contenido.";
+"pregunta64.Respuesta3" = "Difundir mis deseos e intenciones.";
+"pregunta64.Respuesta4" = "Ninguna de las anteriores.";
+
+
+"pregunta65.pregunta" = "Un ejemplo de proyección en el derecho fundamental de la personalidad virtual es:";
+"pregunta65.RespuestaCorrecta" = "4";
+"pregunta65.IDRespuesta" = "65";
+"pregunta65.Respuesta1" = "No tener crédito.";
+"pregunta65.Respuesta2" = "Solicitar pareja.";
+"pregunta65.Respuesta3" = "No querer hipotecar o vender una propiedad.";
+"pregunta65.Respuesta4" = "Todas la anteriores.";
+
+
+"pregunta66.pregunta" = "¿Cómo se llama el principal personaje femenino de la manga de IDMoney?";
+"pregunta66.RespuestaCorrecta" = "1";
+"pregunta66.IDRespuesta" = "66";
+"pregunta66.Respuesta1" = "Yuki.";
+"pregunta66.Respuesta2" = "Ichiko.";
+"pregunta66.Respuesta3" = "Ayaka.";
+"pregunta66.Respuesta4" = "Miyu.";
+
+
+"pregunta67.pregunta" = "¿Cómo se llama el principal personaje masculino de la manga de IDMoney?";
+"pregunta67.RespuestaCorrecta" = "1";
+"pregunta67.IDRespuesta" = "67";
+"pregunta67.Respuesta1" = "Kei.";
+"pregunta67.Respuesta2" = "Satoshi.";
+"pregunta67.Respuesta3" = "Akito.";
+"pregunta67.Respuesta4" = "Gaku.";
+
+
+"pregunta68.pregunta" = "¿A qué se dedica la empresa CryptoLand?";
+"pregunta68.RespuestaCorrecta" = "2";
+"pregunta68.IDRespuesta" = "68";
+"pregunta68.Respuesta1" = "Minería.";
+"pregunta68.Respuesta2" = "Comunicación crypto.";
+"pregunta68.Respuesta3" = "Venta de bienes raíces.";
+"pregunta68.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta69.pregunta" = "¿Cómo se llama la manga que produce CryptoLand?";
+"pregunta69.RespuestaCorrecta" = "1";
+"pregunta69.IDRespuesta" = "69";
+"pregunta69.Respuesta1" = "Cryptoland.";
+"pregunta69.Respuesta2" = "Bitcoin World.";
+"pregunta69.Respuesta3" = "Ethereum, Bitcoin and Alt-coins.";
+"pregunta69.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta70.pregunta" = "¿Cuáles son los primeros clientes de Cryptoland?";
+"pregunta70.RespuestaCorrecta" = "4";
+"pregunta70.IDRespuesta" = "70";
+"pregunta70.Respuesta1" = "IDMoney.";
+"pregunta70.Respuesta2" = "Global Money.";
+"pregunta70.Respuesta3" = "Legal Crypto Labs Global.";
+"pregunta70.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta71.pregunta" = "¿Por qué el software libre es mejor que el código abierto?";
+"pregunta71.RespuestaCorrecta" = "1";
+"pregunta71.IDRespuesta" = "71";
+"pregunta71.Respuesta1" = "Porque se preocupa por la libertad.";
+"pregunta71.Respuesta2" = "Porque comparte el código.";
+"pregunta71.Respuesta3" = "Porque se puede modificar el código.";
+"pregunta71.Respuesta4" = "Porque se preocupa por la eficiencia.";
+
+
+"pregunta72.pregunta" = "¿Por qué se decidió que el software de IDMoney sea software libre?";
+"pregunta72.RespuestaCorrecta" = "4";
+"pregunta72.IDRespuesta" = "72";
+"pregunta72.Respuesta1" = "Por la libertad para el usuario";
+"pregunta72.Respuesta2" = "Por la eficiencia.";
+"pregunta72.Respuesta3" = "Para que pueda ser adaptado localmente de una manera más fácil.";
+"pregunta72.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta73.pregunta" = "¿Cuál es el nombre de la primera licencia de software libre?";
+"pregunta73.RespuestaCorrecta" = "3";
+"pregunta73.IDRespuesta" = "73";
+"pregunta73.Respuesta1" = "MIT.";
+"pregunta73.Respuesta2" = "Apache.";
+"pregunta73.Respuesta3" = "GPL.";
+"pregunta73.Respuesta4" = "BSD.";
+
+
+"pregunta74.pregunta" = "El origen de los ‘forks’ se encuentra en:";
+"pregunta74.RespuestaCorrecta" = "2";
+"pregunta74.IDRespuesta" = "74";
+"pregunta74.Respuesta1" = "La mitosis.";
+"pregunta74.Respuesta2" = "Las licencias de software libre.";
+"pregunta74.Respuesta3" = "Hydra.";
+"pregunta74.Respuesta4" = "Todas las anteriores.";
+
+
+"pregunta75.pregunta" = "¿Qué empresa maneja el fondo de contingencia del proyecto IDMoney?";
+"pregunta75.RespuestaCorrecta" = "3";
+"pregunta75.IDRespuesta" = "75";
+"pregunta75.Respuesta1" = "Global Money.";
+"pregunta75.Respuesta2" = "Governance Labs.";
+"pregunta75.Respuesta3" = "Legal Crypto Labs Global.";
+"pregunta75.Respuesta4" = "CryptoLand.";
+
+
+"pregunta76.pregunta" = "¿Cuál empresa está realizando la venta exclusivamente?";
+"pregunta76.RespuestaCorrecta" = "3";
+"pregunta76.IDRespuesta" = "76";
+"pregunta76.Respuesta1" = "IDMoney S.A.";
+"pregunta76.Respuesta2" = "Governance Labs.";
+"pregunta76.Respuesta3" = "Legal Crypto Labs Global.";
+"pregunta76.Respuesta4" = "CryptoLand.";
+
+
+"pregunta77.pregunta" = "¿Cuánto es el monto del fondo de contingencia del proyecto IDMoney?";
+"pregunta77.RespuestaCorrecta" = "2";
+"pregunta77.IDRespuesta" = "77";
+"pregunta77.Respuesta1" = "30% de todos los tokens IDM.";
+"pregunta77.Respuesta2" = "30% de los ingresos.";
+"pregunta77.Respuesta3" = "20% de los ingresos.";
+"pregunta77.Respuesta4" = "40% de los ingresos.";
+
+
+"pregunta78.pregunta" = "¿Cuánto es el premio mayor que se puede ganar en la IDMoney Play APP?";
+"pregunta78.RespuestaCorrecta" = "3";
+"pregunta78.IDRespuesta" = "78";
+"pregunta78.Respuesta1" = "200 ETH.";
+"pregunta78.Respuesta2" = "100 BTC.";
+"pregunta78.Respuesta3" = "400 ETH más 100 mil IDM.";
+"pregunta78.Respuesta4" = "300 mil IDM.";
+
+
+"pregunta79.pregunta" = "¿A que distancia permite la Near-Field Communication comunicar el móvil de un usuario con otro dispositivo, como un punto de pago?";
+"pregunta79.RespuestaCorrecta" = "4";
+"pregunta79.IDRespuesta" = "79";
+"pregunta79.Respuesta1" = "A una distancia máxima de 10 metros.";
+"pregunta79.Respuesta2" = "A una distancia máxima de 2.5 metros.";
+"pregunta79.Respuesta3" = "A una distancia máxima de 1 metro.";
+"pregunta79.Respuesta4" = "A una distancia de 4 centímetros (1.6 pulgadas) o menos.";
+
+"pregunta80.pregunta" = "Existiendo el marco legal, la tecnología y un programa adicional, ¿qué podrían llegar a implementar los gobiernos locales utilizando la MMW?";
+"pregunta80.RespuestaCorrecta" = "4";
+"pregunta80.IDRespuesta" = "80";
+"pregunta80.Respuesta1" = "Sincronizar o Intercambiar algunos datos entre las MMW en dos dispositivos móviles diferentes.";
+"pregunta80.Respuesta2" = "Pago de  impuestos y procesamiento de pagos con tokens de:  servicios; transporte; venta de tickets, etc.";
+"pregunta80.Respuesta3" = "Procesamiento de pagos en puntos de venta en comercios  locales, incluyendo programas de fidelidad.";
+"pregunta80.Respuesta4" = "Todas las anteriores.";
+
+"pregunta81.pregunta" = "¿La información que incluyan  los usuarios de la Money Making Wallet APP sería pública?";
+"pregunta81.RespuestaCorrecta" = "1";
+"pregunta81.IDRespuesta" = "81";
+"pregunta81.Respuesta1" = "Se almacenará con protección en el dispositivo móvil de cada usuario, no será pública; pero el usuario podrá compartir partes de su información.";
+"pregunta81.Respuesta2" = "Nadie, aparte del propio usuario de la MMW, la podrá leer.";
+"pregunta81.Respuesta3" = "La información de la MMW se almacenará en la blockchain, sin encriptar, cualquiera la podrá leer.";
+"pregunta81.Respuesta4" = "Cualquiera que tenga acceso al móvil del usuario podrá leer la información, pues no tendrá protección.";
+
+"pregunta82.pregunta" = "¿Qué otra característica es especial de la Money Making Wallet de IDMoney con respecto a otras billeteras crypto?";
+"pregunta82.RespuestaCorrecta" = "2";
+"pregunta82.IDRespuesta" = "82";
+"pregunta82.Respuesta1" = "Que almacena datos de manera protegida; de manera que no sea fácil leer la información.";
+"pregunta82.Respuesta2" = "(MMW) podrá generarle ingresos al usuario en forma de crypto tokens cuando llegue a ser implementada por los gobiernos locales.";
+"pregunta82.Respuesta3" = "Que podría almacenar tokens IDM.";
+"pregunta82.Respuesta4" = "Que podría almacenar diferentes tipos de tokens.";
+
+"pregunta83.pregunta" = "¿Por qué querrían los bancos, financieras, empresas de bienes raíces y otros querer leer la información que les compartan los usuarios en sus Money Making Wallets?";
+"pregunta83.RespuestaCorrecta" = "3";
+"pregunta83.IDRespuesta" = "83";
+"pregunta83.Respuesta1" = "Porque necesitarán leer los filtros fijados por el usuario para transacciones bancarias.";
+"pregunta83.Respuesta2" = "Porque necesitarán leer datos que permiten proteger las propiedades registrales de los usuarios.";
+"pregunta83.Respuesta3" = "Para evitar estafas por suplantación de identidad.";
+"pregunta83.Respuesta4" = "Todas las anteriores.";

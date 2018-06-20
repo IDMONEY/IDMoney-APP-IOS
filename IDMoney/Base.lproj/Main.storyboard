@@ -152,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zbf-ep-DKd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="862.31884057971024" y="-227.44565217391306"/>
+            <point key="canvasLocation" x="806" y="-246"/>
         </scene>
         <!--NerdAcademy-->
         <scene sceneID="LdT-B8-FRR">
@@ -2271,7 +2271,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r79-tM-Ler">
-                                        <rect key="frame" x="207" y="535" width="155" height="32"/>
+                                        <rect key="frame" x="207" y="535" width="155" height="30.666666666666629"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="155" id="LYX-rK-0Aq"/>
                                         </constraints>
@@ -2666,7 +2666,7 @@
                                         <color key="tintColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpQ-y6-llK">
-                                        <rect key="frame" x="207" y="579" width="155" height="31.333333333333371"/>
+                                        <rect key="frame" x="207" y="579" width="155" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="155" id="jnm-w4-bjw"/>
                                         </constraints>
@@ -2851,7 +2851,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gUd-7z-PQP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1628" y="1784"/>
+            <point key="canvasLocation" x="1135" y="1866"/>
         </scene>
         <!--Registrar Usuario Controller-->
         <scene sceneID="jVk-YB-TXG">
@@ -3010,7 +3010,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mxe-Kf-Lup" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1628" y="3115.5922038980511"/>
+            <point key="canvasLocation" x="806" y="3124"/>
         </scene>
     </scenes>
     <resources>

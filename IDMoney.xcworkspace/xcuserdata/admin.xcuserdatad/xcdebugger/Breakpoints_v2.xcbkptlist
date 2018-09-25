@@ -22,15 +22,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IDMoney/NerdAcademyQuizViewController.swift"
-            timestampString = "551165315.44578"
+            timestampString = "553573140.04346"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1266"
-            endingLineNumber = "1266"
+            startingLineNumber = "1280"
+            endingLineNumber = "1280"
             landmarkName = "anadirPreguntasContestadas(preguntaContestada:identBoton:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IDMoney/NerdAcademyQuizViewController.swift"
-            timestampString = "551165315.4461319"
+            timestampString = "553573140.044022"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1303"
-            endingLineNumber = "1303"
+            startingLineNumber = "1317"
+            endingLineNumber = "1317"
             landmarkName = "anadirPreguntasContestadas(preguntaContestada:identBoton:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -54,15 +54,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IDMoney/NerdAcademyQuizViewController.swift"
-            timestampString = "551165315.446341"
+            timestampString = "553573140.044392"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1309"
-            endingLineNumber = "1309"
+            startingLineNumber = "1323"
+            endingLineNumber = "1323"
             landmarkName = "anadirPreguntasContestadas(preguntaContestada:identBoton:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -70,46 +70,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IDMoney/NerdAcademyQuizViewController.swift"
-            timestampString = "551165315.446543"
+            timestampString = "553573140.044751"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1283"
-            endingLineNumber = "1283"
+            startingLineNumber = "1326"
+            endingLineNumber = "1326"
+            landmarkName = "anadirPreguntasContestadas(preguntaContestada:identBoton:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IDMoney/NerdAcademyQuizViewController.swift"
+            timestampString = "553573140.045223"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1297"
+            endingLineNumber = "1297"
             landmarkName = "anadirPreguntasContestadas(preguntaContestada:identBoton:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; () in IDMoney.NerdAcademyQuizViewController.anadirPreguntasContestadas(preguntaContestada: IDMoney.PreguntaDescriptionLocalization, identBoton: Swift.String) -&gt; IDMoney.Pregunta"
                   moduleName = "IDMoney"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/admin/Documents/GitHub/IDMoney-APP-IOS/IDMoney/NerdAcademyQuizViewController.swift"
-                  timestampString = "551165315.5939879"
+                  timestampString = "552694230.640631"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1283"
-                  endingLineNumber = "1283"
+                  startingLineNumber = "1293"
+                  endingLineNumber = "1293"
                   offsetFromSymbolStart = "44">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (IDMoney.PreguntaContestada) -&gt; Swift.Bool in closure #1 () -&gt; () in IDMoney.NerdAcademyQuizViewController.anadirPreguntasContestadas(preguntaContestada: IDMoney.PreguntaDescriptionLocalization, identBoton: Swift.String) -&gt; IDMoney.Pregunta"
                   moduleName = "IDMoney"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/admin/Documents/GitHub/IDMoney-APP-IOS/IDMoney/NerdAcademyQuizViewController.swift"
-                  timestampString = "551165315.602175"
+                  timestampString = "552694230.642229"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1283"
-                  endingLineNumber = "1283"
+                  startingLineNumber = "1293"
+                  endingLineNumber = "1293"
                   offsetFromSymbolStart = "16">
                </Location>
             </Locations>
@@ -118,15 +134,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IDMoney/NerdAcademyQuizViewController.swift"
-            timestampString = "551165351.989011"
+            timestampString = "553573140.045657"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1286"
-            endingLineNumber = "1286"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IDMoney/NerdAcademyQuizViewController.swift"
+            timestampString = "553573140.046072"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1300"
+            endingLineNumber = "1300"
             landmarkName = "anadirPreguntasContestadas(preguntaContestada:identBoton:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -134,16 +166,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IDMoney/NerdAcademyQuizViewController.swift"
-            timestampString = "551165353.04667"
+            timestampString = "553573140.046482"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1292"
-            endingLineNumber = "1292"
+            startingLineNumber = "1327"
+            endingLineNumber = "1327"
             landmarkName = "anadirPreguntasContestadas(preguntaContestada:identBoton:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IDMoney/NerdAcademyQuizViewController.swift"
+            timestampString = "553573140.046877"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1339"
+            endingLineNumber = "1339"
+            landmarkName = "didBtnRespuesta1(pregunta:indexSeleccionado:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

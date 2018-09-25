@@ -64,8 +64,10 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
                     }
                 }else{
                     let lstAgregar = List<Pregunta>()
+                    var i = 0
                     for itemPregunta in lstPreguntas{
                         for select in preguntasContestada{
+                            i = i + 1
                             if itemPregunta.IDRespuesta != select.preguntaContestadaID{
                                 let objectsToDelete = preguntasContestada.filter("preguntaContestadaID = %@", itemPregunta.IDRespuesta)
                                 if !objectsToDelete.isEmpty{
@@ -73,6 +75,14 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
                                 }
                             }else{
                                 let objectsToDelete = realm.objects(Pregunta.self).filter("IDRespuesta = %@", itemPregunta.IDRespuesta)
+                                for des in preguntasDescription{
+                                    if des.IDRespuesta == itemPregunta.IDRespuesta{
+                                        if let index = preguntasDescription.index(of: des) {
+                                            preguntasDescription.remove(at: index)
+                                        }
+                                    }
+                                }
+                                
                                 realm.delete(objectsToDelete)
                             }
                         }
@@ -109,8 +119,6 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 500
     }
-    
-    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell:PreguntaTableViewCell = tableViewPreguntas.dequeueReusableCell(withIdentifier: "cellPreguntas", for: indexPath) as! PreguntaTableViewCell
@@ -1228,7 +1236,6 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
                     realm.add(itemPregunta)
                 }
             }
-            
         }
     }
     
@@ -1237,10 +1244,17 @@ class NerdAcademyQuizViewController: UIViewController, UITableViewDataSource, UI
         {
             try realm.write {
                 let objectsToDelete = realm.objects(Pregunta.self).filter("IDRespuesta = %@", pregunta.IDRespuesta)
+                    for des in preguntasDescription{
+                        if des.IDRespuesta == pregunta.IDRespuesta{
+                            if let index = preguntasDescription.index(of: des) {
+                                preguntasDescription.remove(at: index)
+                            }
+                        }
+                }
                 realm.delete(objectsToDelete)
                 tableViewPreguntas.reloadData()
             }
-        }catch {
+        } catch {
         }
         if preguntas.count <= 0 {
             performSegue(withIdentifier: "segueComprobar", sender: nil)

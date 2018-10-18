@@ -1,22 +1,55 @@
 PODS:
+  - Alamofire (4.7.3)
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - CryptoSwift (0.12.0)
   - Realm (3.4.0):
     - Realm/Headers (= 3.4.0)
   - Realm/Headers (3.4.0)
   - RealmSwift (3.4.0):
     - Realm (= 3.4.0)
+  - secp256k1.swift (0.1.4)
+  - SipHash (1.2.2)
+  - SwiftyGif (4.1.0)
+  - Web3 (0.3.1):
+    - Web3/Core (= 0.3.1)
+    - Web3/HTTPExtension (= 0.3.1)
+  - Web3/Core (0.3.1):
+    - BigInt (~> 3.1)
+    - CryptoSwift (~> 0.8)
+    - secp256k1.swift (~> 0.1)
+  - Web3/HTTPExtension (0.3.1):
+    - Web3/Core
 
 DEPENDENCIES:
+  - Alamofire (~> 4.7)
   - RealmSwift
+  - SwiftyGif (~> 4.1.0)
+  - Web3
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BigInt
+    - CryptoSwift
     - Realm
     - RealmSwift
+    - secp256k1.swift
+    - SipHash
+    - SwiftyGif
+    - Web3
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  CryptoSwift: 1c07ca50843dd48bc54e6ea53d7a4dba3b645716
   Realm: 9527c7baa2260f3a3aad6823d2d71cafff9b046b
   RealmSwift: f40a747beaea1cadde7dcef41ee5a34b3001677b
+  secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  SwiftyGif: d36c6dfb52e2ca1e48fe349d225f50ec4123ec85
+  Web3: e9be7ef88585e252df50abc28538d6e4691c786e
 
-PODFILE CHECKSUM: fb353a97b9b48cb2ea9afc00f8675968fd856f5e
+PODFILE CHECKSUM: e0ef5735c6044b82bba881e59ec7dfaf411e1d11
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.1

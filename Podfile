@@ -7,6 +7,17 @@ target 'IDMoney' do
 
   # Pods for IDMoney
 
+   #pod 'JSONWebToken'
+   #pod 'GoogleMaps'
+   #pod 'GooglePlaces'
+   #pod 'PasswordTextField'
+   #pod 'SwiftyJSON'
+   #pod 'Firebase/Core'
+   #pod 'Firebase/Messaging'
+   #pod 'SwiftLint'
+    pod 'SwiftyGif', '~> 4.1.0' 
+    pod 'Alamofire', '~> 4.7'
+    pod 'Web3'
     pod 'RealmSwift'
 
   target 'IDMoneyTests' do
@@ -18,5 +29,7 @@ target 'IDMoney' do
     inherit! :search_paths
     # Pods for testing
   end
+
+
 
 end

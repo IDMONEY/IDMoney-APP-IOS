@@ -68,11 +68,19 @@
 		C3DD950C2086FA1300CFF1B5 /* configuración.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95042086FA1300CFF1B5 /* configuración.png */; };
 		C3DD950D2086FA1300CFF1B5 /* Direcciones.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95052086FA1300CFF1B5 /* Direcciones.png */; };
 		C3DD950E2086FA1300CFF1B5 /* Exchange button.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95062086FA1300CFF1B5 /* Exchange button.png */; };
-		C3DD950F2086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95072086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif */; };
 		C3DD95102086FA1300CFF1B5 /* Pantalla vision.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95082086FA1300CFF1B5 /* Pantalla vision.png */; };
 		C3DD95112086FA1300CFF1B5 /* Transferencias.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD95092086FA1300CFF1B5 /* Transferencias.png */; };
 		C3DD951520871C5A00CFF1B5 /* chart.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DD951420871C5A00CFF1B5 /* chart.png */; };
 		F31323D12A4A0D53298459BD /* Pods_IDMoneyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC5E784556A94AB0BC68ADA /* Pods_IDMoneyUITests.framework */; };
+		F61FE18521781D6100897925 /* MangaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FE18421781D6100897925 /* MangaViewController.swift */; };
+		F61FE188217836BC00897925 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FE187217836BC00897925 /* LaunchScreenViewController.swift */; };
+		F61FE18A2178374400897925 /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FE1892178374400897925 /* LogoAnimationView.swift */; };
+		F61FE18C217839E000897925 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FE18B217839E000897925 /* UIView+Constraints.swift */; };
+		F61FE18E21783DA000897925 /* IDMoney_Videos-LoadingLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F61FE18D21783DA000897925 /* IDMoney_Videos-LoadingLogo.gif */; };
+		F688836F21752EE5007BCA02 /* MenuOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F688836E21752EE5007BCA02 /* MenuOtherViewController.swift */; };
+		F68883712175331E007BCA02 /* Lambo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68883702175331E007BCA02 /* Lambo.storyboard */; };
+		F688837321753339007BCA02 /* IdMoneyPrice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F688837221753339007BCA02 /* IdMoneyPrice.storyboard */; };
+		F688837521753894007BCA02 /* GlobalMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F688837421753894007BCA02 /* GlobalMap.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,12 +179,20 @@
 		C3DD95042086FA1300CFF1B5 /* configuración.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "configuración.png"; path = "Image/configuración.png"; sourceTree = "<group>"; };
 		C3DD95052086FA1300CFF1B5 /* Direcciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Direcciones.png; path = Image/Direcciones.png; sourceTree = "<group>"; };
 		C3DD95062086FA1300CFF1B5 /* Exchange button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Exchange button.png"; path = "Image/Exchange button.png"; sourceTree = "<group>"; };
-		C3DD95072086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "IDMoney_Videos-LoadingLogo.gif"; path = "Image/IDMoney_Videos-LoadingLogo.gif"; sourceTree = "<group>"; };
 		C3DD95082086FA1300CFF1B5 /* Pantalla vision.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pantalla vision.png"; path = "Image/Pantalla vision.png"; sourceTree = "<group>"; };
 		C3DD95092086FA1300CFF1B5 /* Transferencias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Transferencias.png; path = Image/Transferencias.png; sourceTree = "<group>"; };
 		C3DD951420871C5A00CFF1B5 /* chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chart.png; path = Image/chart.png; sourceTree = "<group>"; };
 		D5FA67FC8F2FACDCBEC0C32C /* Pods-IDMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDMoney.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDMoney/Pods-IDMoney.debug.xcconfig"; sourceTree = "<group>"; };
 		EFC5E784556A94AB0BC68ADA /* Pods_IDMoneyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDMoneyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61FE18421781D6100897925 /* MangaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaViewController.swift; sourceTree = "<group>"; };
+		F61FE187217836BC00897925 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		F61FE1892178374400897925 /* LogoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
+		F61FE18B217839E000897925 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		F61FE18D21783DA000897925 /* IDMoney_Videos-LoadingLogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "IDMoney_Videos-LoadingLogo.gif"; sourceTree = "<group>"; };
+		F688836E21752EE5007BCA02 /* MenuOtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOtherViewController.swift; sourceTree = "<group>"; };
+		F68883702175331E007BCA02 /* Lambo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lambo.storyboard; sourceTree = "<group>"; };
+		F688837221753339007BCA02 /* IdMoneyPrice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IdMoneyPrice.storyboard; sourceTree = "<group>"; };
+		F688837421753894007BCA02 /* GlobalMap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GlobalMap.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +263,9 @@
 			children = (
 				842A7011208D933400AA774D /* NerdAcademy.storyboard */,
 				841A98EB20D9D57C0062B3A4 /* Localizable.strings */,
+				F68883702175331E007BCA02 /* Lambo.storyboard */,
+				F688837221753339007BCA02 /* IdMoneyPrice.storyboard */,
+				F688837421753894007BCA02 /* GlobalMap.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -276,6 +295,8 @@
 		C33ABA192086CF2600E01D83 /* IDMoney */ = {
 			isa = PBXGroup;
 			children = (
+				F61FE18D21783DA000897925 /* IDMoney_Videos-LoadingLogo.gif */,
+				F688836D21752EB8007BCA02 /* ViewControllers */,
 				842667BC209E48F500903A81 /* Utilities */,
 				842A700E208D92E500AA774D /* Storyboards */,
 				842A700D208D92D500AA774D /* NerdAcademy */,
@@ -357,7 +378,6 @@
 				C3DD95042086FA1300CFF1B5 /* configuración.png */,
 				C3DD95052086FA1300CFF1B5 /* Direcciones.png */,
 				C3DD95062086FA1300CFF1B5 /* Exchange button.png */,
-				C3DD95072086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif */,
 				C3DD95082086FA1300CFF1B5 /* Pantalla vision.png */,
 				C3DD95092086FA1300CFF1B5 /* Transferencias.png */,
 			);
@@ -372,6 +392,34 @@
 				EFC5E784556A94AB0BC68ADA /* Pods_IDMoneyUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F61FE18321781D4A00897925 /* Manga */ = {
+			isa = PBXGroup;
+			children = (
+				F61FE18421781D6100897925 /* MangaViewController.swift */,
+			);
+			name = Manga;
+			sourceTree = "<group>";
+		};
+		F61FE186217836A000897925 /* Launscreen */ = {
+			isa = PBXGroup;
+			children = (
+				F61FE18B217839E000897925 /* UIView+Constraints.swift */,
+				F61FE187217836BC00897925 /* LaunchScreenViewController.swift */,
+				F61FE1892178374400897925 /* LogoAnimationView.swift */,
+			);
+			name = Launscreen;
+			sourceTree = "<group>";
+		};
+		F688836D21752EB8007BCA02 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F61FE186217836A000897925 /* Launscreen */,
+				F61FE18321781D4A00897925 /* Manga */,
+				F688836E21752EE5007BCA02 /* MenuOtherViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,14 +544,17 @@
 				842A7012208D933500AA774D /* NerdAcademy.storyboard in Resources */,
 				C3DD95112086FA1300CFF1B5 /* Transferencias.png in Resources */,
 				C3DD950B2086FA1300CFF1B5 /* Cerrar Sesión.png in Resources */,
+				F61FE18E21783DA000897925 /* IDMoney_Videos-LoadingLogo.gif in Resources */,
 				C33ABA282086CF2600E01D83 /* LaunchScreen.storyboard in Resources */,
+				F688837521753894007BCA02 /* GlobalMap.storyboard in Resources */,
+				F68883712175331E007BCA02 /* Lambo.storyboard in Resources */,
 				C33ABA252086CF2600E01D83 /* Assets.xcassets in Resources */,
 				C3DD951520871C5A00CFF1B5 /* chart.png in Resources */,
 				842667BB209E48C400903A81 /* LaunchImage.gif in Resources */,
 				C3DD950E2086FA1300CFF1B5 /* Exchange button.png in Resources */,
 				C3DD950D2086FA1300CFF1B5 /* Direcciones.png in Resources */,
-				C3DD950F2086FA1300CFF1B5 /* IDMoney_Videos-LoadingLogo.gif in Resources */,
 				842A701C208D965700AA774D /* PreguntaTableViewCell.xib in Resources */,
+				F688837321753339007BCA02 /* IdMoneyPrice.storyboard in Resources */,
 				841A98E920D9D57C0062B3A4 /* Localizable.strings in Resources */,
 				C33ABA202086CF2600E01D83 /* Main.storyboard in Resources */,
 				C3DD95102086FA1300CFF1B5 /* Pantalla vision.png in Resources */,
@@ -569,18 +620,32 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-IDMoney/Pods-IDMoney-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-IDMoney/Pods-IDMoney-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/Web3/Web3.framework",
+				"${BUILT_PRODUCTS_DIR}/secp256k1.swift/secp256k1.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Web3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDMoney/Pods-IDMoney-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDMoney/Pods-IDMoney-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AAFD2A85725A520DA58263FB /* [CP] Check Pods Manifest.lock */ = {
@@ -615,13 +680,16 @@
 				C33ABA832086E62000E01D83 /* Res_CalcularViaje.swift in Sources */,
 				C33ABA862086E62000E01D83 /* Response_Base.swift in Sources */,
 				C33ABA822086E62000E01D83 /* Request_Base.swift in Sources */,
+				F61FE18C217839E000897925 /* UIView+Constraints.swift in Sources */,
 				C33ABA872086E62000E01D83 /* SoapHttpClient.swift in Sources */,
 				842A7014208D935700AA774D /* NerdAcademyQuizViewController.swift in Sources */,
 				C33ABA7F2086E62000E01D83 /* Req_RegistrarTipoPago.swift in Sources */,
+				F61FE188217836BC00897925 /* LaunchScreenViewController.swift in Sources */,
 				C33ABA8C2086E62000E01D83 /* TipoPago.swift in Sources */,
 				C33ABA842086E62000E01D83 /* Res_RegistrarTipoPago.swift in Sources */,
 				C33ABA1D2086CF2600E01D83 /* ViewController.swift in Sources */,
 				C33ABA712086E62000E01D83 /* AgendarDificultadController.swift in Sources */,
+				F688836F21752EE5007BCA02 /* MenuOtherViewController.swift in Sources */,
 				C33ABA1B2086CF2600E01D83 /* AppDelegate.swift in Sources */,
 				C33ABA7D2086E62000E01D83 /* RegistrarUsuarioController.swift in Sources */,
 				C33ABA762086E62000E01D83 /* ArrayOfTipoPago.swift in Sources */,
@@ -630,6 +698,7 @@
 				C33ABA772086E62000E01D83 /* ArrayOfUsuario.swift in Sources */,
 				C33ABA7A2086E62000E01D83 /* HomeController.swift in Sources */,
 				C33ABA7B2086E62000E01D83 /* Login.swift in Sources */,
+				F61FE18A2178374400897925 /* LogoAnimationView.swift in Sources */,
 				C33ABA7C2086E62000E01D83 /* Reachability.swift in Sources */,
 				C33ABA8E2086E62000E01D83 /* TipoPagoEliminarController.swift in Sources */,
 				C33ABA7E2086E62000E01D83 /* Req_CalcularViaje.swift in Sources */,
@@ -642,6 +711,7 @@
 				C33ABA8A2086E62000E01D83 /* SWXMLHash.swift in Sources */,
 				C33ABA8D2086E62000E01D83 /* TipoPagoController.swift in Sources */,
 				842A701B208D965700AA774D /* PreguntaTableViewCell.swift in Sources */,
+				F61FE18521781D6100897925 /* MangaViewController.swift in Sources */,
 				C33ABA752086E62000E01D83 /* AngendarTipoVehiculoController.swift in Sources */,
 				C33ABA792086E62000E01D83 /* Home.swift in Sources */,
 				C33ABA8F2086E62000E01D83 /* TipoPagoRegistroController.swift in Sources */,
@@ -759,7 +829,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -803,7 +873,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

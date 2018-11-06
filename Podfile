@@ -8,8 +8,8 @@ target 'IDMoney' do
   # Pods for IDMoney
 
    #pod 'JSONWebToken'
-   #pod 'GoogleMaps'
-   #pod 'GooglePlaces'
+    pod 'GoogleMaps'
+    pod 'GooglePlaces'
    #pod 'PasswordTextField'
    #pod 'SwiftyJSON'
    #pod 'Firebase/Core'
@@ -19,6 +19,8 @@ target 'IDMoney' do
     pod 'Alamofire', '~> 4.7'
     pod 'Web3'
     pod 'RealmSwift'
+    pod 'Firebase'
+    pod 'Firebase/Database'
 
   target 'IDMoneyTests' do
     inherit! :search_paths

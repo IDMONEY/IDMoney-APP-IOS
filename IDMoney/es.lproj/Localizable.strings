@@ -14,6 +14,10 @@
  Copyright © 2018 Administrator. All rights reserved.
  */
 
+//Localizable info for the app
+"backButton" = "Atras";
+
+//Nerd academy localizable
 "pregunta1.pregunta" = "¿Por qué IDMoney es social?";
 "pregunta1.RespuestaCorrecta" = "4";
 "pregunta1.IDRespuesta" = "1";

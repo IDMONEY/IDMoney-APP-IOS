@@ -12,7 +12,6 @@ class MenuOtherViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
@@ -31,16 +30,17 @@ class MenuOtherViewController: UIViewController {
 
 extension MenuOtherViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 2
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.row == 0{
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell1")!
-            cell.textLabel?.text = "LAMBO"
-            cell.textLabel?.textColor = UIColor(red: 0.5, green: 0.0, blue: 0.5, alpha: 1.0)
-            return cell
-        } else if indexPath.row == 1 {
+//        if indexPath.row == 0{
+//            let cell = tableView.dequeueReusableCell(withIdentifier: "cell1")!
+//            cell.textLabel?.text = "LAMBO"
+//            cell.textLabel?.textColor = UIColor(red: 0.5, green: 0.0, blue: 0.5, alpha: 1.0)
+//            return cell
+//        } else
+            if indexPath.row == 1 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell2")!
             cell.textLabel?.text = "IDMoney Price"
             cell.textLabel?.textColor = UIColor(red: 0.5, green: 0.0, blue: 0.5, alpha: 1.0)

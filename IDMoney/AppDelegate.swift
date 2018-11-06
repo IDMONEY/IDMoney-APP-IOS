@@ -9,22 +9,44 @@
 import UIKit
 import CoreData
 import CoreLocation
+import Firebase
+import GoogleMaps
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var locationManager: CLLocationManager?
+    let locationManager = CLLocationManager()
     
+    //Firebase app childs constants
+    var refClientsIdmoney: DatabaseReference!
+    var refClientsLocation: DatabaseReference!
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        locationManager = CLLocationManager()
-        locationManager?.requestWhenInUseAuthorization()
+        GMSServices.provideAPIKey("AIzaSyBVSsDK07rkF4aer5hrhaYdJivRA7p-pu0")
         // Override point for customization after application launch.
+        switch CLLocationManager.authorizationStatus() {
+        case .notDetermined:
+            locationManager.requestAlwaysAuthorization()
+            self.locationManager.startUpdatingLocation()
+        case .authorizedAlways,
+             .authorizedWhenInUse:
+            self.locationManager.startUpdatingLocation()
+        default:
+            print("hola")
+            //            centerCameraIfNeeded(inTarget: defaultLocation, animate: false)
+        }
+        // Use Firebase library to configure APIs
+        FirebaseApp.configure()
+        refClientsIdmoney = Firebase.Database.database().reference().child("idmoneyproject/clients")
+        refClientsLocation = Firebase.Database.database().reference().child("idmoneyproject/peopleLocation")
         return true
     }
+    
 
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
@@ -95,4 +117,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
+
+//extension AppDelegate: CLLocationManagerDelegate {
+//
+//}
 

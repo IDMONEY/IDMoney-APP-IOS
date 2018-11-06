@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WU2-1T-wDO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WU2-1T-wDO">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -2537,7 +2535,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r79-tM-Ler">
-                                        <rect key="frame" x="207" y="579" width="155" height="32"/>
+                                        <rect key="frame" x="207" y="579" width="155" height="30.666666666666629"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="155" id="LYX-rK-0Aq"/>
                                         </constraints>
@@ -2932,7 +2930,7 @@
                                         <color key="tintColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpQ-y6-llK">
-                                        <rect key="frame" x="207" y="579" width="155" height="32"/>
+                                        <rect key="frame" x="207" y="579" width="155" height="30.666666666666629"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="155" id="jnm-w4-bjw"/>
                                         </constraints>
@@ -3295,7 +3293,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rXL-Yg-MRy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2216" y="941"/>
+            <point key="canvasLocation" x="-2093" y="941"/>
         </scene>
     </scenes>
     <resources>

@@ -77,6 +77,11 @@
 		F61FE18A2178374400897925 /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FE1892178374400897925 /* LogoAnimationView.swift */; };
 		F61FE18C217839E000897925 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61FE18B217839E000897925 /* UIView+Constraints.swift */; };
 		F61FE18E21783DA000897925 /* IDMoney_Videos-LoadingLogo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F61FE18D21783DA000897925 /* IDMoney_Videos-LoadingLogo.gif */; };
+		F633A0AE21797E9B00B887F5 /* GlobalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F633A0AD21797E9B00B887F5 /* GlobalMapViewController.swift */; };
+		F649AAE8218BF29F00F03D4B /* PersonLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F649AAE7218BF29F00F03D4B /* PersonLocation.swift */; };
+		F6775DA32179863200A304CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6775DA22179863100A304CD /* GoogleService-Info.plist */; };
+		F6775DA52179992D00A304CD /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6775DA42179992D00A304CD /* AppConstants.swift */; };
+		F6775DA921799D0300A304CD /* CRI.gpx in Resources */ = {isa = PBXBuildFile; fileRef = F6775DA821799D0200A304CD /* CRI.gpx */; };
 		F688836F21752EE5007BCA02 /* MenuOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F688836E21752EE5007BCA02 /* MenuOtherViewController.swift */; };
 		F68883712175331E007BCA02 /* Lambo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68883702175331E007BCA02 /* Lambo.storyboard */; };
 		F688837321753339007BCA02 /* IdMoneyPrice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F688837221753339007BCA02 /* IdMoneyPrice.storyboard */; };
@@ -189,6 +194,11 @@
 		F61FE1892178374400897925 /* LogoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
 		F61FE18B217839E000897925 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		F61FE18D21783DA000897925 /* IDMoney_Videos-LoadingLogo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "IDMoney_Videos-LoadingLogo.gif"; sourceTree = "<group>"; };
+		F633A0AD21797E9B00B887F5 /* GlobalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalMapViewController.swift; sourceTree = "<group>"; };
+		F649AAE7218BF29F00F03D4B /* PersonLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonLocation.swift; sourceTree = "<group>"; };
+		F6775DA22179863100A304CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6775DA42179992D00A304CD /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		F6775DA821799D0200A304CD /* CRI.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CRI.gpx; sourceTree = "<group>"; };
 		F688836E21752EE5007BCA02 /* MenuOtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOtherViewController.swift; sourceTree = "<group>"; };
 		F68883702175331E007BCA02 /* Lambo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lambo.storyboard; sourceTree = "<group>"; };
 		F688837221753339007BCA02 /* IdMoneyPrice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IdMoneyPrice.storyboard; sourceTree = "<group>"; };
@@ -239,7 +249,9 @@
 		842667BC209E48F500903A81 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				F633A0A921797CF700B887F5 /* FirebaseComunication */,
 				842667BD209E492D00903A81 /* UIImage+Gif.swift */,
+				F6775DA42179992D00A304CD /* AppConstants.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -295,6 +307,9 @@
 		C33ABA192086CF2600E01D83 /* IDMoney */ = {
 			isa = PBXGroup;
 			children = (
+				F6775DA621799CBA00A304CD /* Resources */,
+				F6775DA22179863100A304CD /* GoogleService-Info.plist */,
+				F633A0A821797CDE00B887F5 /* Models */,
 				F61FE18D21783DA000897925 /* IDMoney_Videos-LoadingLogo.gif */,
 				F688836D21752EB8007BCA02 /* ViewControllers */,
 				842667BC209E48F500903A81 /* Utilities */,
@@ -412,9 +427,49 @@
 			name = Launscreen;
 			sourceTree = "<group>";
 		};
+		F633A0A821797CDE00B887F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F649AAE7218BF29F00F03D4B /* PersonLocation.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F633A0A921797CF700B887F5 /* FirebaseComunication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FirebaseComunication;
+			sourceTree = "<group>";
+		};
+		F633A0AA21797D7C00B887F5 /* GlobalMap */ = {
+			isa = PBXGroup;
+			children = (
+				F633A0AD21797E9B00B887F5 /* GlobalMapViewController.swift */,
+			);
+			name = GlobalMap;
+			sourceTree = "<group>";
+		};
+		F6775DA621799CBA00A304CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6775DA721799CD400A304CD /* Locations */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F6775DA721799CD400A304CD /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				F6775DA821799D0200A304CD /* CRI.gpx */,
+			);
+			name = Locations;
+			sourceTree = "<group>";
+		};
 		F688836D21752EB8007BCA02 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F633A0AA21797D7C00B887F5 /* GlobalMap */,
 				F61FE186217836A000897925 /* Launscreen */,
 				F61FE18321781D4A00897925 /* Manga */,
 				F688836E21752EE5007BCA02 /* MenuOtherViewController.swift */,
@@ -434,6 +489,7 @@
 				C33ABA142086CF2600E01D83 /* Frameworks */,
 				C33ABA152086CF2600E01D83 /* Resources */,
 				842A2C855A3E5FD6428A3F2F /* [CP] Embed Pods Frameworks */,
+				1A265977B50D299D03B24F5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -539,6 +595,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6775DA921799D0300A304CD /* CRI.gpx in Resources */,
 				C3DD950A2086FA1300CFF1B5 /* Ayuda.png in Resources */,
 				C3DD950C2086FA1300CFF1B5 /* configuración.png in Resources */,
 				842A7012208D933500AA774D /* NerdAcademy.storyboard in Resources */,
@@ -556,6 +613,7 @@
 				842A701C208D965700AA774D /* PreguntaTableViewCell.xib in Resources */,
 				F688837321753339007BCA02 /* IdMoneyPrice.storyboard in Resources */,
 				841A98E920D9D57C0062B3A4 /* Localizable.strings in Resources */,
+				F6775DA32179863200A304CD /* GoogleService-Info.plist in Resources */,
 				C33ABA202086CF2600E01D83 /* Main.storyboard in Resources */,
 				C3DD95102086FA1300CFF1B5 /* Pantalla vision.png in Resources */,
 			);
@@ -578,6 +636,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1A265977B50D299D03B24F5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IDMoney/Pods-IDMoney-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDMoney/Pods-IDMoney-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		34EE5314E5AAEA93314F0741 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -620,15 +702,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDMoney/Pods-IDMoney-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-IDMoney/Pods-IDMoney-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
 				"${BUILT_PRODUCTS_DIR}/Web3/Web3.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 				"${BUILT_PRODUCTS_DIR}/secp256k1.swift/secp256k1.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -636,16 +721,19 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Web3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDMoney/Pods-IDMoney-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDMoney/Pods-IDMoney-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AAFD2A85725A520DA58263FB /* [CP] Check Pods Manifest.lock */ = {
@@ -680,6 +768,7 @@
 				C33ABA832086E62000E01D83 /* Res_CalcularViaje.swift in Sources */,
 				C33ABA862086E62000E01D83 /* Response_Base.swift in Sources */,
 				C33ABA822086E62000E01D83 /* Request_Base.swift in Sources */,
+				F633A0AE21797E9B00B887F5 /* GlobalMapViewController.swift in Sources */,
 				F61FE18C217839E000897925 /* UIView+Constraints.swift in Sources */,
 				C33ABA872086E62000E01D83 /* SoapHttpClient.swift in Sources */,
 				842A7014208D935700AA774D /* NerdAcademyQuizViewController.swift in Sources */,
@@ -695,6 +784,7 @@
 				C33ABA762086E62000E01D83 /* ArrayOfTipoPago.swift in Sources */,
 				C33ABA902086E62000E01D83 /* TipoPagoTarjetaController.swift in Sources */,
 				C33ABA802086E62000E01D83 /* Req_RegistrarUsuario.swift in Sources */,
+				F6775DA52179992D00A304CD /* AppConstants.swift in Sources */,
 				C33ABA772086E62000E01D83 /* ArrayOfUsuario.swift in Sources */,
 				C33ABA7A2086E62000E01D83 /* HomeController.swift in Sources */,
 				C33ABA7B2086E62000E01D83 /* Login.swift in Sources */,
@@ -708,6 +798,7 @@
 				C33ABA782086E62000E01D83 /* DropMenuButton.swift in Sources */,
 				C33ABA892086E62000E01D83 /* StructData.swift in Sources */,
 				C33ABA932086E62000E01D83 /* viajesRealizadosController.swift in Sources */,
+				F649AAE8218BF29F00F03D4B /* PersonLocation.swift in Sources */,
 				C33ABA8A2086E62000E01D83 /* SWXMLHash.swift in Sources */,
 				C33ABA8D2086E62000E01D83 /* TipoPagoController.swift in Sources */,
 				842A701B208D965700AA774D /* PreguntaTableViewCell.swift in Sources */,

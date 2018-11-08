@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        GMSServices.provideAPIKey("AIzaSyBVSsDK07rkF4aer5hrhaYdJivRA7p-pu0")
+        GMSServices.provideAPIKey("AIzaSyBRBWH_-Y9dTK6YP-HHgXBpP32pF_9FZFs")
         // Override point for customization after application launch.
         switch CLLocationManager.authorizationStatus() {
         case .notDetermined:
